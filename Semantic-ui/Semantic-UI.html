@@ -2,20 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="
-https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js
-"></script>
-    <link href="
-https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css
-" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
     <title>Semantic-UI</title>
 </head>
 <body>
-<nav>
-    <a class="" href="../tailwind/tailwind.html">Tailwind</a>
-    <a  class="" href="../Bulma/Bulma.html">Bulma</a>
-    <a class="" href="../Semantic-ui/Semantic-UI.html">Semantic UI</a>
-    <a class="" href="">Foundation</a>
+<nav class="h3 bg-dark-blue w-100 flex justify-end items-center ">
+    <a class="mr4 white no-underline" href="../tailwind/tailwind.html">Tailwind</a>
+    <a  class="mr4 white no-underline" href="../Bulma/Bulma.html">Bulma</a>
+    <a class="mr4 white no-underline" href="../Semantic-ui/Semantic-UI.html">Semantic UI</a>
+    <a class="mr4 white no-underline" href="">Foundation</a>
 </nav>
+
+
+<div class=" flex flex-column ">
+    <div class=" bg-lightest-blue flex items-center flex-column pt4 pb6 ">
+        <h1 class="">Welkom bij mijn</h1>
+        <h1 class="">graduaatsproef</h1>
+        <p>
+            Op deze website zal ik het vooral hebben over 4 verschillende CSS-frameworks onderzoeken. <br> Hieronder kan u de 4 verschillende CSS-frameworks praktisch bekijken.
+        </p>
+    </div>
+    <div class="bg-lightest-blue pb4 flex justify-around">
+
+        <button class="w-10 h3 br3 b--none bg-dark-blue grow  ">
+            <a class=" white no-underline" href="../tailwind/tailwind.html">Tailwind</a>
+        </button>
+        <button class="w-10 h3 br3 b--none bg-dark-blue grow">
+            <a class="white no-underline" href="../Bulma/Bulma.html">Bulma</a>
+        </button>
+        <button class="w-10 h3 br3 b--none bg-dark-blue grow ">
+            <a class=" white no-underline" href="../Semantic-ui/Semantic-UI.html">Sementic-UI</a>
+        </button>
+        <button class="w-10 h3 br3 b--none bg-dark-blue grow">
+            <a class="white no-underline" href="">Foundation</a>
+        </button>
+    </div>
+</div>
+
+
+
+
+    <div class="flex flex-row justify-center mt5 ">
+        <h1 class="">Componenten/page gemaakt in Tailwind</h1>
+    </div>
+
+
+
+<div class="flex flex-column mt4">
+    <div class="flex flex-row gap-[40px] items-center">
+        <h1>Basischool De Hoogvlieger</h1>
+        <input type="text" class="w-[280px] h-[48px] border-2 rounded-lg px-8  content-center">
+    </div>
+    <div>
+        <p>Gewoon onderwijs - Kleuter & Lager - Herselsesteenweg 221, 3200 Aarschot</p>
+    </div>
+    <div class="flex flex-row justify-between ">
+        <div class="flex flex-row gap-[48px]">
+            <div class="flex flex-row items-center gap-[10px]">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <p>Opleidingen</p>
+            </div>
+            <div class="flex items-center gap-[10px]">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <p>Opleidingen</p>
+            </div>
+            <div class="flex items-center gap-[10px]">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <p>Opleidingen</p>
+            </div>
+        </div>
+
+        <div class="flex flex-row gap-[25px]">
+            <button class="rounded-lg w-[229px] h-[48px] border-2 text-sky-800 ">Alle tabellen openvouwen</button>
+            <button class="rounded-lg w-[170px] h-[48px] border-2 text-sky-800">Cijfers exporteren</button>
+            <button class="rounded-lg w-[95px] h-[48px] bg-sky-800 text-white">Opslaan</button>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
