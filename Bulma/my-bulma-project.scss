@@ -1,11 +1,11 @@
 // Set your brand colors
 $main-color: oklch(44.3% 0.11 240.79);
-$pink: #fa7c91;
+$pink: oklch(95.1% 0.026 236.824);
 $brown: #757763;
 $beige-light: #d0d1cd;
 $beige-lighter: #eff0eb;
 $text-color:white;
-$button-width:280px;
+
 
 
 
@@ -18,8 +18,8 @@ $button-width:280px;
   $link: $pink,
   $control-border-width: 2px,
   $input-shadow: none,
-  $text: $text-color,
-  $m-0: $button-width,
+
+
 
 );
 

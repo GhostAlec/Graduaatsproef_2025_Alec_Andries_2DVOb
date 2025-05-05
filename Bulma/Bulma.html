@@ -7,16 +7,74 @@
     <script src="https://kit.fontawesome.com/86cde1e622.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<nav class="has-background-primary ">
-    <a class="has-text-text" href="../tailwind/tailwind.html">Tailwind</a>
-    <a  class="has-text-white" href="../Bulma/Bulma.html">Bulma</a>
-    <a class="has-text-white" href="../Semantic-ui/Semantic-UI.html">Semantic UI</a>
-    <a class="has-text-white" href="">Foundation</a>
-    <button class="button is-medium is-primary">test</button>
+<nav class=" is-rounded  has-background-primary  p-2 is-flex is-flex-direction-row is-justify-content-end is-gap-2">
+    <a class=" has-text-white navbar-item" href="../tailwind/tailwind.html">Tailwind</a>
+    <a  class=" has-text-white navbar-item" href="../Bulma/Bulma.html">Bulma</a>
+    <a class="has-text-white navbar-item" href="../Semantic-ui/Semantic-UI.html">Semantic UI</a>
+    <a class="has-text-white navbar-item mr-6" href="">Foundation</a>
+
 
 </nav>
 
+<header class="has-background-link is-flex is-flex-direction-column is-gap-8 pt-6 " >
+    <div class="is-flex is-flex-direction-row is-justify-content-center ">
+        <div class="is-flex is-flex-direction-column ">
+            <h1 class="has-text-weight-bold">
+                Welkom bij mijn
+            </h1>
+            <h1 class="has-text-primary has-text-weight-bold mb-6">
+                Graduaatsproef
+            </h1>
+            <p class="mb-6">
+                Op deze website zal ik het vooral hebben over 4 verschillende CSS-frameworks onderzoeken. <br> Hieronder kan u de 4 verschillende CSS-frameworks praktisch bekijken.
+            </p>
+        </div>
+    </div>
 
+    <div class="is-flex is-flex-direction-row is-display-grid-mobile is-justify-content-space-around pb-6">
+        <button class="has-background-primary button is-6-mobile is-7-desktop-only">
+            <a class="has-text-white" href="">Tailwind</a>
+        </button>
+        <button class="has-background-primary button is-6-mobile is-7-desktop-only ">
+            <a class="has-text-white" href="">Tailwind</a>
+        </button>
+        <button class="has-background-primary button is-6-mobile is-7-desktop-only ">
+            <a class="has-text-white" href="">Tailwind</a>
+        </button>
+        <button class="has-background-primary button is-6-mobile is-7-desktop-only ">
+            <a class="has-text-white" href="">Tailwind</a>
+        </button>
+    </div>
+</header>
 
+<div class="is-flex is-flex-direction-row is-justify-content-center mt-6">
+    <h1 class="has-text-weight-bold is-size-5 has-text-black ">
+        Componenten/page gemaakt in Bulma
+    </h1>
+</div>
+
+<div class="is-flex is-flex-direction-column mt-6">
+    <div class="is-flex is-flex-direction-column is-gap-4">
+        <div class="is-flex is-flex-direction-row is-gap-4">
+            <h2 class="has-text-weight-bold has-text-black">
+                basisschool De Hoogvlieger
+            </h2>
+            <input type="text">
+        </div>
+        <div >
+            <p>Gewoon onderwijs - Kleuter & Lager - Herselsesteenweg 221, 3200 Aarschot</p>
+        </div>
+
+        <div class="is-flex is-flex-direction-row">
+            <div class="is-flex is-flex-direction-row">
+                <div class="is-flex is-flex-direction-row">
+                    <i class="mr2 fa-solid fa-magnifying-glass"></i>
+                    <p>Opleidingen</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
 </body>
 </html>
