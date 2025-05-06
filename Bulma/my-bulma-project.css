@@ -1,4 +1,59 @@
 @charset "UTF-8";
+/*Own styling*/
+.rounded-button{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.rounded-checkbox{
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border:2px solid black
+}
+
+.border-2{
+  border:2px solid oklch(44.3% 0.11 240.79)
+}
+
+.hover-button:hover{
+  scale: 1.5;
+  transition: ease-out 0.5s;
+  background-color: rgb(2 132 199);
+}
+
+.gap-table-header{
+  gap:65px;
+}
+
+.gap-table-content{
+  gap:135px;
+}
+
+.switch-button-width{
+  width: 85px;
+}
+
+.switch-dot-width{
+  width: 24px;
+}
+.switch-radius{
+  border-radius: 16px;
+}
+.switch-button-height{
+  height: 24px;
+}
+
+.switch-rounded-dot{
+  border-radius: 100%;
+}
+
+.hover-navitem:hover{
+  border-bottom: 2px white solid;
+  transition: ease-out 0.5s;
+}
+
 /* Bulma Utilities */
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 :root {
@@ -5701,7 +5756,7 @@ button.tag:active,
   display: flex;
   flex-wrap: wrap;
   column-gap: 1em;
-  row-gap: 0.5em;
+  row-gap: 5em;
 }
 
 /* Bulma Form */
@@ -7058,15 +7113,7 @@ button.dropdown-item.is-selected {
   --bulma-modal-card-body-padding: 2rem;
 }
 
-.modal {
-  align-items: center;
-  display: none;
-  flex-direction: column;
-  justify-content: center;
-  overflow: hidden;
-  position: fixed;
-  z-index: var(--bulma-modal-z);
-}
+
 .modal.is-active {
   display: flex;
 }
