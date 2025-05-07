@@ -5,17 +5,65 @@
     <script src="https://kit.fontawesome.com/86cde1e622.js" crossorigin="anonymous"></script>
     <title>Materialize</title>
     <link rel="stylesheet" href="materialize/css/materialize.css">
-</head>
-<body>
 
-<nav class="materialize-main row ">
-    <a class="  col s1 " href="../tailwind/tailwind.html">Tailwind</a>
-    <a  class="  col s1  " href="../Bulma/Bulma.html">Bulma</a>
-    <a class=" col s1  " href="../Materialize/materialize.html">Materialize</a>
-    <a class=" col s1   " href="">Foundation</a>
+
+</head>
+<body >
+
+
+<nav>
+    <div class="nav-wrapper main">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger scale-transition"><i class="material-icons"><i class="fa-solid fa-bars"></i></i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="../tailwind/tailwind.html">Tailwind</a></li>
+            <li><a href="../Bulma/Bulma.html">Bulma</a></li>
+            <li><a href="../Materialize/materialize.html">Materialize</a></li>
+            <li><a href="../">foundation</a></li>
+        </ul>
+    </div>
 </nav>
+
+<ul class="sidenav main scale-out scale-transition" id="mobile-demo">
+    <li><a href="../tailwind/tailwind.html">Tailwind</a></li>
+    <li><a href="../Bulma/Bulma.html">Bulma</a></li>
+    <li><a href="../Materialize/materialize.html">Materialize</a></li>
+    <li><a href="../">foundation</a></li>
+</ul>
+
+<div class="second-color row">
+    <div class="col xl4 ">
+        <h3>
+            Welkom bij mijn
+        </h3>
+        <h4 class="main-text ">
+            Graduaatsproef
+        </h4>
+    </div>
+
+    <div class="offset-xl3 col xl5">
+        <img src="../Bulma/test-background.png" alt="">
+    </div>
+
+    <div class="row xl12">
+
+            <a class=" col xl1 offset-xl1 waves-effect waves-light btn">button</a>
+            <a class=" col xl1 offset-xl1 waves-effect waves-light btn">button</a>
+            <a class="col xl1 offset-xl1 waves-effect waves-light btn">button</a>
+            <a class="col xl1 offset-xl1 waves-effect waves-light btn">button</a>
+
+
+    </div>
+</div>
+
+
 
 
 
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+  const sideNav= document.querySelectorAll('.sidenav');
+ M.Sidenav.init(sideNav, {});
+</script>
 </html>
