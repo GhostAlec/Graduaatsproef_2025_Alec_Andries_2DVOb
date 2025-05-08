@@ -27,7 +27,21 @@
   color: oklch(44.3% 0.11 240.79);
 }
 
+.margin-top{
+  margin-top: 5rem;
+}
 
+.margin-bottom{
+  margin-bottom: 5rem;
+}
+
+.input-text-width{
+  width: 280px;
+}
+
+.border{
+  border: 2px solid oklch(44.3% 0.11 240.79);
+}
 
 .materialize-red-text {
   color: #e51c23 !important;
