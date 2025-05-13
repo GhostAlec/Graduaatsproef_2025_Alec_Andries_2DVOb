@@ -45,7 +45,7 @@ html {
 .uk-br-button-medium{
   border-radius: 8px;
 }
-  .uk-br--button-large{
+  .uk-br-button-large{
     border-radius: 16px;
   }
 
@@ -54,6 +54,31 @@ html {
     border-top-left-radius:8px ;
   }
 
+
+.uk-height-primary-button{
+  height: 48px;
+}
+
+  .uk-height-secondary-button{
+    height: 40px;
+  }
+
+
+  .uk-border-button{
+    border:2px solid oklch(44.3% 0.11 240.79);
+  }
+
+  .uk-items-center{
+    align-items: center;
+  }
+
+  .uk-no-background{
+    background-color: white;
+  }
+
+.uk-rounded-width{
+  width: 40px;
+}
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 16px;
   font-weight: normal;
