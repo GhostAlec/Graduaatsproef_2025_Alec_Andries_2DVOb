@@ -11,6 +11,16 @@ html {
   /* 1 */
 
   /*own styling*/
+  .uk-background-black{
+    background: black;
+  }
+  .uk-text-black{
+    color: black;
+  }
+
+  .uk-background-grey{
+    background: grey;
+  }
   .uk-background-primary-own{
     background-color: oklch(44.3% 0.11 240.79);
   }
@@ -28,7 +38,6 @@ html {
   }
 
   .uk-hover-text:hover{
-    border-bottom: 2px solid white ;
     text-decoration: none;
     color: white;
 
@@ -56,11 +65,11 @@ html {
 
 
 .uk-height-primary-button{
-  height: 48px;
+  height: 3rem;
 }
 
   .uk-height-secondary-button{
-    height: 40px;
+    height: 2.5rem;
   }
 
 
@@ -71,14 +80,33 @@ html {
   .uk-items-center{
     align-items: center;
   }
+  .uk-items-baseline{
+   align-items: baseline;
+  }
 
   .uk-no-background{
     background-color: white;
   }
 
 .uk-rounded-width{
-  width: 40px;
+  width: 2.5rem;
 }
+
+  .uk-align-content-center{
+    align-content: center;
+  }
+  .uk-text-align-center{
+    text-align: center;
+  }
+
+  .uk-margin-xl-top{
+    margin-top: 13rem;
+  }
+
+  .uk-margin-xl-bottom{
+    margin-bottom: 13rem;
+  }
+
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 16px;
   font-weight: normal;
