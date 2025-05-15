@@ -11,6 +11,28 @@ html {
   /* 1 */
 
   /*own styling*/
+
+  .uk-fullrounded{
+    border-radius: 100%;
+  }
+
+  .uk-width-extra-small{
+    width: 85px;
+  }
+
+  .uk-height-extra-small{
+    height: 24px;
+  }
+  .uk-background-green-1{
+    background-color: #a0ecba;
+  }
+
+.uk-background-green{
+  background-color: #02D147;
+}
+  .uk-border{
+    border: 2px solid black;
+  }
   .uk-background-black{
     background: black;
   }
