@@ -27,7 +27,7 @@
 }
 
 .gap-table-content{
-  gap:135px;
+  gap:125px;
 }
 
 .switch-button-width{
@@ -55,6 +55,18 @@
 
 .width-progress{
   width: 10rem;
+}
+
+.br-small{
+    border-radius: 8px;
+}
+
+.br-medium{
+    border-radius: 16px;
+}
+
+.break{
+  word-wrap: break-word;
 }
 
 /* Bulma Utilities */

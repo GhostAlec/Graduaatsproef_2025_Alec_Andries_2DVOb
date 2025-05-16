@@ -5,57 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://kit.fontawesome.com/86cde1e622.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <title>Tailwind</title>
-    <link rel="stylesheet" href="tailwind.css">
+
 </head>
 <body>
-<div class="text-white bg-sky-800 flex justify-end content-center h-[54px] pr-[5%] sticky top-0">
+
+<nav class="text-white bg-sky-800 flex justify-end content-center h-[54px] pr-[5%] sticky top-0">
     <div class="flex gap-[25px] items-center">
         <a class="hover:border-b-2" href="../tailwind/tailwind.html">Tailwind</a>
         <a  class="hover:border-b-2" href="../Bulma/Bulma.html">Bulma</a>
-        <a class="hover:border-b-2" href="../Materialize/materialize.html">Semantic UI</a>
+        <a class="hover:border-b-2" href="../Materialize/materialize.html">Materialize</a>
         <a class="hover:border-b-2" href="../UI-kit/UI-kit.html">UI kit</a>
+        <a class="hover:border-b-2" href="../result-page/result-page.html">Aanbeveling</a>
     </div>
-</div>
+</nav>
 
-<div class="flex flex-col gap-[10rem]  pt-[5rem] bg-sky-100 pb-[5rem] text-center  ">
-    <div class="flex flex-col gap-[1rem]  ">
-        <h1>Welkom bij mijn</h1>
-        <h1 class="text-sky-800">graduaatsproef</h1>
-        <p>
-            Op deze website zal ik het vooral hebben over 4 verschillende CSS-frameworks onderzoeken. <br> Hieronder kan u de 4 verschillende CSS-frameworks praktisch bekijken.
-        </p>
+<header class="bg-sky-100 flex flex-col gap-[5rem] pt-[5rem]  ">
+    <div class="flex flex-row justify-around items-center">
+        <div class="flex flex-col gap-[5rem]">
+            <div class="flex flex-col gap-[1rem]">
+                <h3 class="text-3xl font-bold ">
+                    Welkom bij mijn
+                </h3>
+                <h3 class="text-sky-800 text-5xl font-bold ">
+                    Graduaatsproef
+                </h3>
+            </div>
+            <div>
+                <p>Voor deze graduaatsproef is het de bedoeling om onderzoek te doen <br> naar 4 verschillende CSS-frameworks die goed passen binnen
+                    <br> het bedrijf Smart-ICT. Via onderstaande links kan je elke pagina bekijk gemaakt <br> in het bijpassende framework</p>
+            </div>
+        </div>
+        <div class="">
+            <img class="rounded-2xl w-[30rem] h-[25rem]" src="../Bulma/test-background.png" alt="">
+        </div>
     </div>
-    <div class="flex flex-row gap-[15%] justify-center">
 
-        <button class="bg-sky-800 w-[7.5rem] h-[48px] text-white rounded-lg hover:bg-sky-600 hover:scale-125 hover:transition">
+
+    <div class="flex flex-row  justify-around ">
+
+        <button class="bg-sky-800 w-[7.5rem] h-[48px] text-white rounded-t-lg hover:bg-sky-600  hover:transition">
             <a href="../tailwind/tailwind.html">Tailwind</a>
         </button>
-        <button class="bg-sky-800 w-[7.5rem] h-[48px] text-white rounded-lg hover:bg-sky-600 hover:scale-125 hover:transition">
+        <button class="bg-sky-800 w-[7.5rem] h-[48px] text-white rounded-t-lg hover:bg-sky-600  hover:transition">
             <a href="../Bulma/Bulma.html">Bulma</a>
         </button>
-        <button class="bg-sky-800 w-[7.5rem] h-[48px] text-white rounded-lg hover:bg-sky-600 hover:scale-125 hover:transition">
-            <a href="../Materialize/materialize.html">Sementic-UI</a>
+        <button class="bg-sky-800 w-[7.5rem] h-[48px] text-white rounded-t-lg hover:bg-sky-600  hover:transition">
+            <a href="../Materialize/materialize.html">Materialize</a>
         </button>
-        <button class="bg-sky-800 w-[7.5rem] h-[48px] text-white rounded-lg hover:bg-sky-600 hover:scale-125 hover:transition">
-            <a href="">Foundation</a>
+        <button class="bg-sky-800 w-[7.5rem] h-[48px] text-white rounded-t-lg hover:bg-sky-600  hover:transition">
+            <a href="../UI-kit/UI-kit.html">UI kit</a>
+        </button>
+        <button class="bg-sky-800 w-[7.5rem] h-[48px] text-white rounded-t-lg hover:bg-sky-600  hover:transition">
+            <a href="../result-page/result-page.html">Aanbeveling</a>
         </button>
     </div>
+</header>
+
+
+
+
+
+
+
+
+<div class="mt-[10rem] flex flex-row gap-[1rem] justify-center items-center">
+    <hr class="w-[25%]">
+    <h1 class="text-center font-bold text-2xl">
+        Componenten gamaakt in Tailwind
+    </h1>
+    <hr class="w-[25%] ">
 </div>
 
 
-
-
-<div class="gap-[10rem] flex flex-col mt-[5rem] ">
-    <div class="flex flex-col text-center gap-5 ">
-        <h1 class="font-bold text-2xl pb-[1rem]">
-            Componenten gemaakt in Tailwind
-        </h1>
-    </div>
-</div>
-
-
-<div class="flex flex-col gap-[40px]  mt-[5rem]">
+<div class="flex flex-col gap-[40px]  mt-[10rem]">
     <div class="flex flex-row gap-[40px] items-center">
         <h1>Basischool De Hoogvlieger</h1>
         <input type="text" class="w-[280px] h-[48px] border-2 rounded-lg px-8  content-center">
@@ -391,93 +415,99 @@
     </div>
     </div>
 
-<div class="mt-[5rem] ">
+<div class="mt-[10rem] flex flex-row gap-[1rem] justify-center items-center">
+    <hr class="w-[35%]">
     <h1 class="text-center font-bold text-2xl">
-        Conclusies
+        Review
     </h1>
+    <hr class="w-[35%] ">
 </div>
 
-<div class=" flex flex-row mt-[5rem] bg-sky-100 gap-[15rem] justify-center pt-[5rem] pb-[5rem]">
-    <div class="flex-col">
-        <div>
-            <div>
-                <h3 class="font-bold">Duurzaamheid</h3>
-            </div>
-            <div>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-            </div>
+
+<div class="flex justify-center mt-[5rem]">
+    <img src="../tailwind/128px-Tailwind_CSS_Logo.svg.png" alt="">
+</div>
+
+
+    <div class="flex flex-row gap-[5rem] justify-around text-white mt-[5rem]">
+        <div class="bg-sky-800 w-[37rem] p-[4rem] rounded-2xl ">
+            <h1 class="font-bold text-2xl">
+                Pro's
+            </h1>
+               <ul class="list-disc list-inside">
+                   <li>Is snel te begrijpen(makkelijke class naming conventions).</li>
+                   <li>Heeft een zeer grote community</li>
+                   <li>Makkelijk aanpasbare waardes in de classes</li>
+                   <li>Meer controle over uw elementen</li>
+                   <li>Genoeg mogelijkheden voor responsiviteit zoals media queries, grid of flexbox</li>
+               </ul>
         </div>
-        <div>
-            <div>
-                <h3 class="font-bold">Snelheid</h3>
-            </div>
-            <div>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-            </div>
-        </div>
-        <div>
-            <div>
-                <h3 class="font-bold">Responsive</h3>
-            </div>
-            <div>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-            </div>
+
+
+
+        <div class="bg-sky-800 w-[37rem] p-[4rem] rounded-2xl">
+            <h1 class="font-bold text-2xl">
+                Cons
+            </h1>
+            <ul class="list-disc list-inside">
+                <li>Alleen betaalde ingebouwde componenten en niet veel</li>
+                <li>Extra componenten is via een extra tool(DaisyUI)</li>
+            </ul>
         </div>
     </div>
 
-    <div>
+<div class="flex justify-center text-white mt-[5rem] ">
+    <div class="bg-sky-800 w-[79rem] p-[4rem] rounded-2xl gap-[2rem] flex flex-col">
         <div>
-            <div>
-                <h3 class="font-bold">duurzaamheid</h3>
-            </div>
-            <div>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-            </div>
+            <h3 class="font-bold text-2xl">
+                Rating
+            </h3>
         </div>
 
         <div>
-            <div>
-                <h3 class="font-bold">Responsive</h3>
+            <div class="flex flex-col">
+                <p class="">
+                    Responsiviteit
+                </p>
+                <div class="flex flex-row gap-[0.5rem]">
+                    <i class=" fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star-half" style="color: #ffffff;"></i>
+                </div>
             </div>
-            <div>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-            </div>
-        </div>
 
-        <div>
-            <div>
-                <h3 class="font-bold">Snelheid</h3>
+            <div class="flex flex-col">
+                <p class="">
+                    Duurzaamheid
+                </p>
+                <div class="flex flex-row gap-[0.5rem]">
+                    <i class=" fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                </div>
             </div>
-            <div>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+            <div class="flex flex-col">
+                <p class="">
+                    Duurzaamheid
+                </p>
+                <div class="flex flex-row gap-[0.5rem]">
+                    <i class=" fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                </div>
             </div>
+
         </div>
     </div>
 </div>
+
+
 
 </body>
 </html>
