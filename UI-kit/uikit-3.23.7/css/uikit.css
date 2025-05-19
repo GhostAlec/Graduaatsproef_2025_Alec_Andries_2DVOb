@@ -137,7 +137,17 @@ html {
   .uk-gap-black-table{
     gap: 65px;
   }
+.uk-card-width{
+  width:15rem;
+}
 
+.uk-card-padding{
+  padding: 1rem;
+}
+
+  .uk-card-border-radius{
+    border-radius: 8px;
+  }
 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 16px;

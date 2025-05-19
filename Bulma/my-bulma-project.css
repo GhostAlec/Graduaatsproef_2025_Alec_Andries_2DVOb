@@ -1,4 +1,6 @@
 @charset "UTF-8";
+
+
 /*Own styling*/
 .rounded-button{
   width: 40px;
@@ -68,6 +70,15 @@
 .break{
   word-wrap: break-word;
 }
+
+.card-width{
+    width: 15rem;
+}
+
+.card-border-radius{
+  border-radius: 8px;
+}
+
 
 /* Bulma Utilities */
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
