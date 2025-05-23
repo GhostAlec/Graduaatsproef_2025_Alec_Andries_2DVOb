@@ -58,7 +58,9 @@
 .width-progress{
   width: 10rem;
 }
-
+.width-searchbar{
+    width: 280px;
+}
 .br-small{
     border-radius: 8px;
 }
