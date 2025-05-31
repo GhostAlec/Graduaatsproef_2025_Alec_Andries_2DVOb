@@ -5,6 +5,9 @@
     <title>Bulma</title>
     <link rel="stylesheet" href="../Bulma/my-bulma-project.css">
     <script src="https://kit.fontawesome.com/86cde1e622.js" crossorigin="anonymous"></script>
+    <script defer src="../Bulma/bulma.js"></script>
+
+
 </head>
 <body>
 
@@ -12,44 +15,37 @@
 <section class="hero is-link is-medium">
     <div class="hero-head">
         <nav class=" is-rounded  has-background-primary  p-2 is-flex is-flex-direction-row is-justify-content-end is-gap-2">
-            <a class="hover-navitem has-text-white navbar-item" href="../tailwind/tailwind.html">Tailwind</a>
-            <a  class=" hover-navitem has-text-white navbar-item" href="../Bulma/Bulma.html">Bulma</a>
-            <a class="hover-navitem has-text-white navbar-item" href="../Materialize/materialize.html">Materialize</a>
-            <a class="hover-navitem has-text-white navbar-item mr-6" href="../UI-kit/UI-kit.html">UI kit</a>
-            <a class="hover-navitem has-text-white navbar-item mr-6" href="../result-page/result-page.html">Aanbeveling</a>
+            <a class="is-size-6 hover-navitem has-text-white navbar-item" href="../tailwind/tailwind.html">Tailwind</a>
+            <a  class="is-size-6 hover-navitem has-text-white navbar-item" href="../Bulma/Bulma.html">Bulma</a>
+            <a class="is-size-6 hover-navitem has-text-white navbar-item mr-6" href="../UI-kit/UI-kit.html">UI kit</a>
+            <a class="is-size-6 hover-navitem has-text-white navbar-item mr-6" href="../result-page/result-page.html">Aanbeveling</a>
         </nav>
     </div>
-
-    <div class="hero-body is-flex is-flex-direction-row">
-        <div class="container has-text-left is-align-content-center">
-            <p class="title has-text-black">Welkom bij mijn</p>
-            <p class="title has-text-main-color">Graduaatsproef</p>
-            <p class="subtitle has-text-black mt-6">Voor deze graduaatsproef is het de bedoeling om onderzoek te doen
+    <div class="hero-body is-flex is-flex-direction-row is-justify-content-space-around">
+        <div class=" is-flex is-flex-direction-column has-text-left is-align-content-center">
+            <h4 class="has-inline is-size-3 has-text-weight-bold has-text-black">Welkom bij mijn</h4>
+            <h2 class="is-size-1 has-inline has-text-weight-extrabold has-text-main-color">Graduaatsproef</h2>
+            <p class="is-size-6 has-header-paragraph-width  has-text-black mt-6 is-width-2">Voor deze graduaatsproef is het de bedoeling om onderzoek te doen
                 naar 4 verschillende CSS-frameworks die goed passen binnen
                 het bedrijf Smart-ICT. Via onderstaande links kan je elke pagina bekijk gemaakt
                 in het bijpassende framework.</p>
         </div>
         <div>
-            <img class="image is-4by3 switch-radius" src="../Bulma/test-background.png" alt="">
+            <img  class="image  switch-radius" src="../Bulma/Bulma%20Icon.png" alt="">
+
         </div>
     </div>
-
-
         <nav class=" is-flex is-flex-direction-row  is-justify-content-space-around">
-
-                  <button class="button is-medium has-background-primary">
+                  <button class="has-hover-animation button is-medium has-background-primary">
                       <a class="has-text-white" href="../tailwind/tailwind.html">Tailwind</a>
                   </button>
-                <button class="button is-medium has-background-primary"><a class="has-text-white" href="../Bulma/Bulma.html">Bulma</a>
+                <button class="has-hover-animation button is-medium has-background-primary"><a class="has-text-white" href="../Bulma/Bulma.html">Bulma</a>
                 </button>
-                <button class="button is-medium has-background-primary">
-                    <a class="has-text-white" href="../Materialize/materialize.html">Materialize</a>
-                </button>
-                <button class="button is-medium has-background-primary">
+                <button class="has-hover-animation button is-medium has-background-primary">
                     <a class="has-text-white" href="../UI-kit/UI-kit.html">UI kit</a>
                 </button>
 
-                <button class="button is-medium has-background-primary">
+                <button class="has-hover-animation button is-medium has-background-primary">
                     <a class="has-text-white" href="../result-page/result-page.html">Aanbeveling</a>
                 </button>
         </nav>
@@ -57,17 +53,19 @@
 
 
 
-<div>
-    <h1 class="mt-6 mb-6 has-text-centered is-size-2 has-text-black has-text-weight-bold">
+<div class="mt-6 mb-6 is-flex is-align-items-center is-justify-content-center is-gap-4">
+    <hr class="hr-wdth" >
+    <h1 class="mt-6 mb-6 has-text-centered is-size-3 has-text-black has-text-weight-bold">
         Componenten gemaakt in Bulma
     </h1>
+    <hr class="hr-wdth" >
 </div>
 
-<div class="is-flex is-flex-direction-column mt-6">
+<div class=" is-flex is-flex-direction-column mt-6">
     <div class="is-flex is-flex-direction-column is-gap-4">
         <div class="is-flex is-flex-direction-row is-align-items-center is-gap-4">
-            <h2 class="has-text-weight-bold has-text-black">
-                basisschool De Hoogvlieger
+            <h2 class=" is-size-5 has-text-weight-bold has-text-black">
+                Basisschool De Hoogvlieger
             </h2>
             <div class="border-2 br-small control  has-icons-right">
                 <input class="br-small input is-medium " type="text" placeholder="Search" />
@@ -77,29 +75,29 @@
             </div>
         </div>
         <div >
-            <p>Gewoon onderwijs - Kleuter & Lager - Herselsesteenweg 221, 3200 Aarschot</p>
+            <p class="is-size-6 has-text-black has-text-weight-normal">Gewoon onderwijs - Kleuter & Lager - Herselsesteenweg 221, 3200 Aarschot</p>
         </div>
 
         <div class="is-flex is-flex-direction-row is-justify-content-space-between is-display-grid-mobile">
-            <div class="is-flex is-flex-direction-row is-gap-2 ">
-                <div class="is-flex is-flex-direction-row is-gap-1 is-align-items-center">
-                    <i class="mr2 fa-solid fa-magnifying-glass"></i>
-                    <p>Opleidingen</p>
+            <div class="is-flex is-flex-direction-row is-gap-6 ">
+                <div class="hover-navitem is-flex is-flex-direction-row is-gap-1 is-align-items-center">
+                    <i class="has-text-black  mr2 fa-solid fa-magnifying-glass"></i>
+                    <p class="is-size-6 has-text-black has-text-weight-normal">Opleidingen</p>
                 </div>
-                <div class="is-flex is-flex-direction-row is-gap-1 is-align-items-center">
-                    <i class="mr2 fa-solid fa-magnifying-glass"></i>
-                    <p>Opleidingen</p>
+                <div class="hover-navitem is-flex is-flex-direction-row is-gap-1 is-align-items-center">
+                    <i class="has-text-black  mr2 fa-solid fa-magnifying-glass"></i>
+                    <p class="is-size-6 has-text-black has-text-weight-normal">Cijferlijst</p>
                 </div>
-                <div class="is-flex is-flex-direction-row is-gap-1 is-align-items-center">
-                    <i class="mr2 fa-solid fa-magnifying-glass"></i>
-                    <p>Opleidingen</p>
+                <div class="hover-navitem is-flex is-flex-direction-row is-gap-1 is-align-items-center">
+                    <i class="has-text-black  mr2 fa-solid fa-magnifying-glass"></i>
+                    <p class="is-size-6 has-text-black has-text-weight-normal">Algemene gegevens</p>
                 </div>
             </div>
             <div class="is-gap-2 is-flex-direction-row is-flex  ">
-                <button class="br-small p-4 is-medium border-2 has-text-primary ">
+                <button id="button-open" class="br-small border-2 p-4 is-medium has-border-animation has-border-animation-active has-text-primary ">
                     Alle tabellen openvouwen
                 </button>
-                <button class="br-small p-4 is-medium border-2 has-text-primary">
+                <button class="br-small p-4 is-medium border-2 has-text-primary has-border-animation has-border-animation-active">
                     Cijfers exporteren
                 </button>
                 <button class="button  has-background-primary is-medium has-text-white ">
@@ -108,317 +106,331 @@
             </div>
         </div>
     </div>
-    <div class="mb-5">
+    <div class="mb-5 mt-5">
         <div class="is-flex is-flex-direction-row is-gap-4 is-align-items-center">
-            <h1>Geboortejaar 2023</h1>
-            <div class="rounded-button has-background-primary is-align-content-center has-text-centered ">
+            <h1 class="has-text-black has-text-weight-bold">Geboortejaar 2023</h1>
+            <div id="dropdown-tabel1" class="has-hover-animation rounded-button has-background-primary is-align-content-center has-text-centered ">
                 <i class=" has-text-white fa-solid fa-chevron-down  "></i>
             </div>
         </div>
     </div>
-
-    <div class="has-background-black is-flex is-flex-direction-row pt-3 pb-3 gap-table-content">
-        <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-            <p class="has-text-white">Capaciteit</p>
-            <div class="is-flex is-flex-direction-column">
-                <i class="has-text-white fa-solid fa-chevron-up"></i>
-                <i class="has-text-white fa-solid fa-chevron-down"></i>
-            </div>
-        </div>
-        <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-            <p class="has-text-white">Capaciteit</p>
-            <div class="is-flex is-flex-direction-column">
-                <i class="has-text-white fa-solid fa-chevron-up"></i>
-                <i class="has-text-white fa-solid fa-chevron-down"></i>
-            </div>
-        </div>
-        <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-            <p class="has-text-white">Capaciteit</p>
-            <div class="is-flex is-flex-direction-column">
-                <i class="has-text-white fa-solid fa-chevron-up"></i>
-                <i class="has-text-white fa-solid fa-chevron-down"></i>
-            </div>
-        </div>
-        <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-            <p class="has-text-white">Capaciteit</p>
-            <div class="is-flex is-flex-direction-column">
-                <i class="has-text-white fa-solid fa-chevron-up"></i>
-                <i class="has-text-white fa-solid fa-chevron-down"></i>
-            </div>
-        </div>
-        <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-            <p class="has-text-white">Capaciteit</p>
-            <div class="is-flex is-flex-direction-column">
-                <i class="has-text-white fa-solid fa-chevron-up"></i>
-                <i class="has-text-white fa-solid fa-chevron-down"></i>
-            </div>
-        </div>
-        <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-            <p class="has-text-white">Capaciteit</p>
-            <div class="is-flex is-flex-direction-column">
-                <i class="has-text-white fa-solid fa-chevron-up"></i>
-                <i class="has-text-white fa-solid fa-chevron-down"></i>
-            </div>
-        </div>
     </div>
-    <div class="is-flex is-flex-direction-row has-background-grey-lighter gap-table-content mb-5">
-        <div class="is-flex is-flex-direction-row is-gap-2 is-align-items-center">
-            <div class="rounded-checkbox has-background-grey-light">
 
-            </div>
-            <div class="is-flex is-flex-direction-column">
-                <i class="has-text-black fa-solid fa-chevron-up"></i>
-                <i class="has-text-black fa-solid fa-chevron-down"></i>
-            </div>
-        </div>
-        <div class="is-flex is-flex-direction-row is-gap-2 is-align-items-center">
-            <div class="rounded-checkbox has-background-grey-light">
 
-            </div>
-            <div class="is-flex is-flex-direction-column">
-                <i class="has-text-black fa-solid fa-chevron-up"></i>
-                <i class="has-text-black fa-solid fa-chevron-down"></i>
-            </div>
-        </div>
-        <div class="is-flex is-align-items-center has-text-black">
-            <p>xx/xxxx/xxxx</p>
-        </div>
-        <div class="is-flex is-flex-direction-column is-align-items-center has-text-black">
-            <p>xx/xxxx/xxxx</p>
-            <p>xx:xx:xx</p>
-        </div>
 
-        <div class="is-flex is-align-items-center">
-            <div class="is-align-items-center is-flex is-flex-direction-row switch-button-width has-background-success-85 switch-button-height switch-radius">
-                <div class="switch-rounded-dot has-background-success-30 switch-dot-width switch-button-height">
-
+<div id="tabelbulma1" class="mb-6">
+    <div class="is-flex is-flex-direction-column">
+        <div class="has-background-black is-flex is-flex-direction-row gap-65px pl-16">
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">Capaciteit</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
                 </div>
-                JA
+            </div>
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">Zittende leerlingen</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
+                </div>
+            </div>
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">Aantal leerlingen</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
+                </div>
+            </div>
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">Capaciteit bereikt op</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
+                </div>
+            </div>
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">Capaciteit bereikt</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
+                </div>
+            </div>
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">OVG toonbaar</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
+                </div>
             </div>
         </div>
 
-        <div class="is-flex is-flex-direction-row is-gap-2 is-align-items-center">
-            <div class="rounded-checkbox has-background-grey-light">
-
+        <div class="is-flex is-flex-direction-row background-gray-500 gap-table-content is-align-content-center pl-16 border-radius-bottom">
+            <div class="is-flex is-gap-2 is-align-items-center ">
+                <div class="has-border-animation-input rounded-checkbox has-background-grey-light"></div>
+                <div class="is-flex is-flex-direction-column">
+                    <i class="fa-solid fa-chevron-up has-text-black"></i>
+                    <i class="fa-solid fa-chevron-down has-text-black"></i>
+                </div>
             </div>
+
+            <div class="is-flex is-gap-2 is-align-items-center">
+                <div class="has-border-animation-input rounded-checkbox has-background-grey-light"></div>
+                <div class="is-flex is-flex-direction-column">
+                    <i class="fa-solid fa-chevron-up has-text-black"></i>
+                    <i class="fa-solid fa-chevron-down has-text-black"></i>
+                </div>
+            </div>
+
+            <div class="is-align-content-center height-40 mt-2 has-text-centered switch-rounded-dot switch-button-width switch-button-height background-green-500 has-text-black ">
+                xx
+            </div>
+
+            <div class="is-flex is-flex-direction-column">
+                <p class="is-size-6 has-text-black">xx/xxxx/xxxx</p>
+                <p class="is-size-6 has-text-black">xx:xx:xx</p>
+            </div>
+
+            <div class="is-flex is-align-items-center mt-2">
+                <div class="is-flex is-flex-direction-row switch-button-width has-background-success-60 switch-button-height switch-radius">
+                    <div class="has-text-black switch-rounded-dot has-background-success-30 switch-dot-width switch-button-height"></div>
+                    JA
+                </div>
+            </div>
+
+            <div class="has-border-animation-input rounded-checkbox has-background-grey-light"></div>
+        </div>
+</div>
+</div>
+
+<div id="tabelbulma2" class="mb-6">
+    <div class="is-flex is-flex-direction-column">
+        <div class="has-background-black is-flex is-flex-direction-row gap-65px pl-16">
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">Beschrijving</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
+                </div>
+            </div>
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">Percentage hoeveelheid OVG</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
+                </div>
+            </div>
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">Zittende leerlingen OVG</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="is-flex is-flex-direction-row background-gray-500 gap-table-content pl-16 border-radius-bottom">
+
+            <div>
+                <p class="has-text-black width-beschrijving-width">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugit!</p>
+            </div>
+
+            <div class="is-flex is-gap-2 is-align-items-center ">
+                <div class="has-border-animation-input rounded-checkbox has-background-grey-light"></div>
+                <div class="is-flex is-flex-direction-column">
+                    <i class="fa-solid fa-chevron-up has-text-black"></i>
+                    <i class="fa-solid fa-chevron-down has-text-black"></i>
+                </div>
+            </div>
+
+            <div class="is-flex is-gap-2 is-align-items-center">
+                <div class="has-border-animation-input rounded-checkbox has-background-grey-light"></div>
+                <div class="is-flex is-flex-direction-column">
+                    <i class="fa-solid fa-chevron-up has-text-black"></i>
+                    <i class="fa-solid fa-chevron-down has-text-black"></i>
+                </div>
+            </div>
+
         </div>
     </div>
+</div>
 
-    <div class="has-background-black is-flex is-flex-direction-row pt-3 pb-3 gap-table-content">
-        <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-            <p class="has-text-white">Capaciteit</p>
-            <div class="is-flex is-flex-direction-column">
-                <i class="has-text-white fa-solid fa-chevron-up"></i>
-                <i class="has-text-white fa-solid fa-chevron-down"></i>
-            </div>
-        </div>
-        <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-            <p class="has-text-white">Capaciteit</p>
-            <div class="is-flex is-flex-direction-column">
-                <i class="has-text-white fa-solid fa-chevron-up"></i>
-                <i class="has-text-white fa-solid fa-chevron-down"></i>
-            </div>
-        </div>
-        <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-            <p class="has-text-white">Capaciteit</p>
-            <div class="is-flex is-flex-direction-column">
-                <i class="has-text-white fa-solid fa-chevron-up"></i>
-                <i class="has-text-white fa-solid fa-chevron-down"></i>
-            </div>
-        </div>
-    </div>
-    <div class="is-flex is-flex-direction-row has-background-grey-lighter gap-table-content mb-6">
-        <div class="is-flex is-align-items-center has-text-black">
-            <p>xx/xxxx/xxxx</p>
-        </div>
-        <div class="is-flex is-flex-direction-row is-gap-2 is-align-items-center">
-            <div class="rounded-checkbox has-background-grey-light">
 
-            </div>
-            <div class="is-flex is-flex-direction-column">
-                <i class="has-text-black fa-solid fa-chevron-up"></i>
-                <i class="has-text-black fa-solid fa-chevron-down"></i>
-            </div>
-        </div>
-        <div class="is-flex is-flex-direction-row is-gap-2 is-align-items-center">
-            <div class="rounded-checkbox has-background-grey-light">
-
-            </div>
-            <div class="is-flex is-flex-direction-column">
-                <i class="has-text-black fa-solid fa-chevron-up"></i>
-                <i class="has-text-black fa-solid fa-chevron-down"></i>
-            </div>
-        </div>
-    </div>
 
     <div class="mb-5">
         <div class="is-flex is-flex-direction-row is-gap-4 is-align-items-center">
-            <h1>Geboortejaar 2023</h1>
-            <div class="rounded-button has-background-primary is-align-content-center has-text-centered ">
+            <h1 class="is-size-5 has-text-weight-bold has-text-black">Geboortejaar 2023</h1>
+            <div id="dropdown-tabel2" class="has-hover-animation rounded-button has-background-primary is-align-content-center has-text-centered ">
                 <i class=" has-text-white fa-solid fa-chevron-down  "></i>
             </div>
         </div>
     </div>
 
 
-</div>
 
-<div class="has-background-black is-flex is-flex-direction-row pt-3 pb-3 gap-table-content">
-    <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-        <p class="has-text-white">Capaciteit</p>
-        <div class="is-flex is-flex-direction-column">
-            <i class="has-text-white fa-solid fa-chevron-up"></i>
-            <i class="has-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-    <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-        <p class="has-text-white">Capaciteit</p>
-        <div class="is-flex is-flex-direction-column">
-            <i class="has-text-white fa-solid fa-chevron-up"></i>
-            <i class="has-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-    <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-        <p class="has-text-white">Capaciteit</p>
-        <div class="is-flex is-flex-direction-column">
-            <i class="has-text-white fa-solid fa-chevron-up"></i>
-            <i class="has-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-    <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-        <p class="has-text-white">Capaciteit</p>
-        <div class="is-flex is-flex-direction-column">
-            <i class="has-text-white fa-solid fa-chevron-up"></i>
-            <i class="has-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-    <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-        <p class="has-text-white">Capaciteit</p>
-        <div class="is-flex is-flex-direction-column">
-            <i class="has-text-white fa-solid fa-chevron-up"></i>
-            <i class="has-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-    <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-        <p class="has-text-white">Capaciteit</p>
-        <div class="is-flex is-flex-direction-column">
-            <i class="has-text-white fa-solid fa-chevron-up"></i>
-            <i class="has-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-</div>
-<div class="is-flex is-flex-direction-row has-background-grey-lighter gap-table-content mb-5">
-    <div class="is-flex is-flex-direction-row is-gap-2 is-align-items-center">
-        <div class="rounded-checkbox has-background-grey-light">
-
-        </div>
-        <div class="is-flex is-flex-direction-column">
-            <i class="has-text-black fa-solid fa-chevron-up"></i>
-            <i class="has-text-black fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-    <div class="is-flex is-flex-direction-row is-gap-2 is-align-items-center">
-        <div class="rounded-checkbox has-background-grey-light">
-
-        </div>
-        <div class="is-flex is-flex-direction-column">
-            <i class="has-text-black fa-solid fa-chevron-up"></i>
-            <i class="has-text-black fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-    <div class="is-flex is-align-items-center has-text-black">
-        <p>xx/xxxx/xxxx</p>
-    </div>
-    <div class="is-flex is-flex-direction-column is-align-items-center has-text-black">
-        <p>xx/xxxx/xxxx</p>
-        <p>xx:xx:xx</p>
-    </div>
-
-    <div class="is-flex is-align-items-center">
-        <div class="is-align-items-center is-flex is-flex-direction-row switch-button-width has-background-success-85 switch-button-height switch-radius">
-            <div class="switch-rounded-dot has-background-success-30 switch-dot-width switch-button-height">
-
+<div id="tabelbulma3" class="mb-6">
+    <div class="is-flex is-flex-direction-column">
+        <div class="has-background-black is-flex is-flex-direction-row gap-65px pl-16">
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">Capaciteit</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
+                </div>
             </div>
-            JA
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">Zittende leerlingen</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
+                </div>
+            </div>
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">Aantal leerlingen</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
+                </div>
+            </div>
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">Capaciteit bereikt op</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
+                </div>
+            </div>
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">Capaciteit bereikt</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
+                </div>
+            </div>
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">OVG toonbaar</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <div class="is-flex is-flex-direction-row is-gap-2 is-align-items-center">
-        <div class="rounded-checkbox has-background-grey-light">
+        <div class="is-flex is-flex-direction-row background-gray-500 gap-table-content pl-16 border-radius-bottom">
+            <div class="is-flex is-gap-2 is-align-items-center ">
+                <div class="has-border-animation-input rounded-checkbox has-background-grey-light"></div>
+                <div class="is-flex is-flex-direction-column">
+                    <i class="fa-solid fa-chevron-up has-text-black"></i>
+                    <i class="fa-solid fa-chevron-down has-text-black"></i>
+                </div>
+            </div>
 
+            <div class="is-flex is-gap-2 is-align-items-center">
+                <div class="has-border-animation-input rounded-checkbox has-background-grey-light"></div>
+                <div class="is-flex is-flex-direction-column">
+                    <i class="fa-solid fa-chevron-up has-text-black"></i>
+                    <i class="fa-solid fa-chevron-down has-text-black"></i>
+                </div>
+            </div>
+
+            <div class="has-text-black is-align-content-center height-40 mt-2 has-text-centered switch-rounded-dot switch-button-width switch-button-height background-green-500">
+                xx
+            </div>
+
+            <div class="is-flex is-flex-direction-column">
+                <p class="is-size-6 has-text-black">xx/xxxx/xxxx</p>
+                <p class="is-size-6 has-text-black">xx:xx:xx</p>
+            </div>
+
+            <div class="is-flex is-align-items-center mt-2">
+                <div class="is-flex is-flex-direction-row switch-button-width has-background-success-60 switch-button-height switch-radius">
+                    <div class="has-text-black switch-rounded-dot has-background-success-30 switch-dot-width switch-button-height"></div>
+                    JA
+                </div>
+            </div>
+
+            <div class="has-border-animation-input rounded-checkbox has-background-grey-light"></div>
         </div>
     </div>
 </div>
 
-<div class="has-background-black is-flex is-flex-direction-row pt-3 pb-3 gap-table-content">
-    <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-        <p class="has-text-white">Capaciteit</p>
-        <div class="is-flex is-flex-direction-column">
-            <i class="has-text-white fa-solid fa-chevron-up"></i>
-            <i class="has-text-white fa-solid fa-chevron-down"></i>
+<div id="tabelbulma4" class="mb-6">
+    <div class="is-flex is-flex-direction-column">
+        <div class="has-background-black is-flex is-flex-direction-row gap-65px pl-16">
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">Beschrijving</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
+                </div>
+            </div>
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">Percentage hoeveelheid OVG</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
+                </div>
+            </div>
+            <div class="is-flex is-align-items-center">
+                <p class="is-size-5 has-text-weight-normal has-text-white">Zittende leerlingen OVG</p>
+                <div class="is-flex is-flex-direction-column ml-2">
+                    <i class="fa-solid fa-chevron-up has-text-white"></i>
+                    <i class="fa-solid fa-chevron-down has-text-white"></i>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-        <p class="has-text-white">Capaciteit</p>
-        <div class="is-flex is-flex-direction-column">
-            <i class="has-text-white fa-solid fa-chevron-up"></i>
-            <i class="has-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-    <div class="is-flex is-flex-direction-row is-align-items-center is-gap-2">
-        <p class="has-text-white">Capaciteit</p>
-        <div class="is-flex is-flex-direction-column">
-            <i class="has-text-white fa-solid fa-chevron-up"></i>
-            <i class="has-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-</div>
-<div class="is-flex is-flex-direction-row has-background-grey-lighter gap-table-content mb-6">
-    <div class="is-flex is-align-items-center has-text-black">
-        <p>xx/xxxx/xxxx</p>
-    </div>
-    <div class="is-flex is-flex-direction-row is-gap-2 is-align-items-center">
-        <div class="rounded-checkbox has-background-grey-light">
+
+        <div class="is-flex is-flex-direction-row background-gray-500 gap-table-content pl-16 border-radius-bottom">
+
+            <div>
+                <p class="has-text-black width-beschrijving-width">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugit!</p>
+            </div>
+
+            <div class="is-flex is-gap-2 is-align-items-center ">
+                <div class="has-border-animation-input rounded-checkbox has-background-grey-light"></div>
+                <div class="is-flex is-flex-direction-column">
+                    <i class="fa-solid fa-chevron-up has-text-black"></i>
+                    <i class="fa-solid fa-chevron-down has-text-black"></i>
+                </div>
+            </div>
+
+            <div class="is-flex is-gap-2 is-align-items-center">
+                <div class="has-border-animation-input rounded-checkbox has-background-grey-light"></div>
+                <div class="is-flex is-flex-direction-column">
+                    <i class="fa-solid fa-chevron-up has-text-black"></i>
+                    <i class="fa-solid fa-chevron-down has-text-black"></i>
+                </div>
+            </div>
 
         </div>
-        <div class="is-flex is-flex-direction-column">
-            <i class="has-text-black fa-solid fa-chevron-up"></i>
-            <i class="has-text-black fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-    <div class="is-flex is-flex-direction-row is-gap-2 is-align-items-center">
-        <div class="rounded-checkbox has-background-grey-light">
-
-        </div>
-        <div class="is-flex is-flex-direction-column">
-            <i class="has-text-black fa-solid fa-chevron-up"></i>
-            <i class="has-text-black fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-</div>
-
-<div class=" is-flex is-flex-direction-row is-gap-8 is-justify-content-center is-align-items-center">
-    <div class="rounded-button has-background-primary is-align-content-center has-text-centered ">
-        <i class=" has-text-white fa-solid fa-chevron-left"></i>
-    </div>
-    <div class="is-flex-direction-row is-flex is-gap-4">
-        <p>1</p>
-        <p>2</p>
-        <p>3</p>
-        <p>4</p>
-        <p>5</p>
-        <p>6</p>
-        <p>7</p>
-    </div>
-    <div class="rounded-button has-background-primary is-align-content-center has-text-centered ">
-        <i class="has-text-white fa-solid fa-chevron-right"></i>
     </div>
 </div>
 
 <div>
-    <h1 class="mt-6 mb-6  has-text-centered is-size-2 has-text-black has-text-weight-bold">
+
+<div class=" is-flex is-flex-direction-row is-gap-8 is-justify-content-center is-align-items-center">
+    <div class="has-hover-animation rounded-button has-background-primary is-align-content-center has-text-centered ">
+        <i class=" has-text-white fa-solid fa-chevron-left"></i>
+    </div>
+    <div class="is-flex-direction-row is-flex is-gap-4">
+        <p class="is-size-6">1</p>
+        <p class="is-size-6">2</p>
+        <p class="is-size-6">3</p>
+        <p class="is-size-6">4</p>
+        <p class="is-size-6">5</p>
+        <p class="is-size-6">6</p>
+        <p class="is-size-6">7</p>
+    </div>
+    <div class="has-hover-animation rounded-button has-background-primary is-align-content-center has-text-centered ">
+        <i class="has-text-white fa-solid fa-chevron-right"></i>
+    </div>
+</div>
+
+<div class="mt-6 mb-6 is-flex is-align-items-center is-justify-content-center is-gap-4">
+    <hr class="hr-wdth" >
+    <h1 class="mt-6 mb-6 has-text-centered is-size-3 has-text-black has-text-weight-bold">
         Rating
     </h1>
+    <hr class="hr-wdth" >
 </div>
 
 <div class="is-flex is-justify-content-center">
@@ -428,17 +440,20 @@
 <div class=" mt-6 fixed-grid  has-7-cols ">
     <div class="grid is-row-gap-8">
         <section class="  is-col-start-2 is-col-span-2 cell section has-background-primary br-medium break">
-            <h1 class="title has-text-white">Pro's</h1>
+            <h1 class="is-size-5 has-text-white">Pro's</h1>
             <ul class="has-text-white">
-                <li>Heeft veel keus uit verschillende componenten om te gebruiken</li>
+                <li class="is-size-6">- Heeft veel keus uit verschillende componenten om te gebruiken</li>
+                <li class="is-size-6">- Voor sections die veel gebruikt worden is dit handig</li>
+                <li class="is-size-6">- Responsiviteit is makkelijk</li>
             </ul>
         </section>
         <section class=" is-col-start-5 is-col-span-2 cell section has-background-primary br-medium break">
-        <h1 class="title has-text-white">Cons</h1>
-        <p class=" has-text-white">
-            A simple container to divide your page into <strong>sections</strong>, like
-            the one you're currently reading Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias consequatur consequuntur deserunt doloribus molestias odio quae sit totam velit..
-        </p>
+        <h1 class="is-size-5 has-text-white">Cons</h1>
+            <ul class="has-text-white">
+                <li class="is-size-6">- Heeft veel keus uit verschillende componenten om te gebruiken</li>
+                <li class="is-size-6">- Voor sections die veel gebruikt worden is dit handig</li>
+                <li class="is-size-6">- Responsiviteit is makkelijk</li>
+            </ul>
         </section>
 </div>
 
@@ -452,9 +467,9 @@
 
 <div class="is-flex is-flex-direction-column is-gap-4">
     <div class="is-flex is-flex-direction-row is-justify-content-space-around">
-        <div class="border-2 card-border-radius card-width p-2">
+        <div class="has-hover-card border-2 card-border-radius card-width p-2">
             <div class="is-flex is-flex-direction-column ">
-                <h1 class="has-text-weight-bold has-text-black">
+                <h1 class="is-size-5 has-text-weight-bold has-text-black">
                     Duurzaamheid
                 </h1>
                 <hr>
@@ -468,21 +483,21 @@
                 </div>
 
                 <div>
-                    <p>3/5</p>
+                    <p class="is-size-6">3/5</p>
                 </div>
             </div>
 
             <div>
-                <p class="has-text-black">
+                <p class="is-size-6 has-text-black">
                     Voor bulma qua duurzaamheid is het wat apart het heeft een iets mindere userbase op github(240k). Maar krijgt voldoende updates en is nog in volle groei daarmee dit cijfer.
                 </p>
             </div>
 
         </div>
 
-        <div class="border-2 card-border-radius card-width p-2">
+        <div class="has-hover-card border-2 card-border-radius card-width p-2">
             <div class="is-flex is-flex-direction-column ">
-                <h1 class="has-text-weight-bold has-text-black">
+                <h1 class="is-size-5 has-text-weight-bold has-text-black">
                     Lage leercurve
                 </h1>
                 <hr>
@@ -497,20 +512,20 @@
                 </div>
 
                 <div>
-                    <p>3.5/5</p>
+                    <p class="is-size-6">3.5/5</p>
                 </div>
             </div>
 
             <div>
-                <p class="has-text-black">
+                <p class="is-size-6 has-text-black">
                     Bulma is makkelijk te begrijpen de classes zijn iets langer maar lijkt erg op het gebruik van een taal zoals de woorden is en has.
                 </p>
             </div>
         </div>
 
-        <div class="border-2 card-border-radius card-width p-2">
+        <div class="has-hover-card border-2 card-border-radius card-width p-2">
             <div class="is-flex is-flex-direction-column ">
-                <h1 class="has-text-weight-bold has-text-black">
+                <h1 class="is-size-5 has-text-weight-bold has-text-black">
                     Leesbare code
                 </h1>
                 <hr>
@@ -525,11 +540,11 @@
                 </div>
 
                 <div>
-                    <p>4/5</p>
+                    <p class="is-size-6">4/5</p>
                 </div>
             </div>
             <div>
-                <p class="has-text-black">
+                <p class="is-size-6 has-text-black">
                     De code makkelijk te lezen alleen kan het wat lang zijn omwille van hoe bepaalde properties noemen.
                 </p>
             </div>
@@ -538,9 +553,9 @@
 
 
     <div class="is-flex is-flex-direction-row is-justify-content-space-around">
-        <div class="border-2 card-border-radius card-width p-2">
+        <div class="has-hover-card border-2 card-border-radius card-width p-2">
             <div class="is-flex is-flex-direction-column ">
-                <h1 class="has-text-weight-bold has-text-black">
+                <h1 class="is-size-5 has-text-weight-bold has-text-black">
                     Grote community
                 </h1>
                 <hr>
@@ -554,20 +569,20 @@
                 </div>
 
                 <div>
-                    <p>3/5</p>
+                    <p class="is-size-6">3/5</p>
                 </div>
             </div>
 
             <div>
-                <p class="has-text-black">
+                <p class="is-size-6 has-text-black">
                     Bulma is de 2e grootste community van de 4 frameworks die we hebben bekeken. Het heeft een userbase van 240k op github en is nog steeds in volle groei.
                 </p>
             </div>
         </div>
 
-        <div class="border-2 card-border-radius card-width p-2">
+        <div class="has-hover-card border-2 card-border-radius card-width p-2">
             <div class="is-flex is-flex-direction-column ">
-                <h1 class="has-text-weight-bold has-text-black">
+                <h1 class="is-size-5has-text-weight-bold has-text-black">
                     Onderhoud
                 </h1>
                 <hr>
@@ -582,20 +597,20 @@
                 </div>
 
                 <div>
-                    <p>4/5</p>
+                    <p class="is-size-6">4/5</p>
                 </div>
             </div>
 
             <div>
-                <p class="has-text-black">
+                <p class="is-size-6 has-text-black">
                     Op het vlak van onderhoud heb ik een 4 gegeven omdat het op lange termijn genoeg updates en ondersteuning biedt.
                 </p>
             </div>
         </div>
 
-        <div class="border-2 card-border-radius card-width p-2">
+        <div class="has-hover-card border-2 card-border-radius card-width p-2">
             <div class="is-flex is-flex-direction-column ">
-                <h1 class="has-text-weight-bold has-text-black">
+                <h1 class="is-size-5 has-text-weight-bold has-text-black">
                     Responsiviteit
                 </h1>
                 <hr>
@@ -610,11 +625,11 @@
                 </div>
 
                 <div>
-                    <p>4/5</p>
+                    <p class="is-size-6">4/5</p>
                 </div>
             </div>
             <div>
-                <p class="has-text-black">
+                <p class="is-size-6 has-text-black">
                     Bulma is een responsive framework dat gebruik maakt van flexbox en grid. Dit maakt het makkelijk om een responsive website te maken.
                 </p>
             </div>
@@ -623,9 +638,9 @@
 
 
     <div class="is-flex is-flex-direction-row is-justify-content-space-around">
-        <div class="border-2 card-border-radius card-width p-2">
+        <div class="has-hover-card border-2 card-border-radius card-width p-2">
             <div class="is-flex is-flex-direction-column ">
-                <h1 class="has-text-weight-bold has-text-black">
+                <h1 class="is-size-5 has-text-weight-bold has-text-black">
                     Animaties
                 </h1>
                 <hr>
@@ -639,20 +654,20 @@
                 </div>
 
                 <div>
-                    <p>2.5/5</p>
+                    <p class="is-size-6">2.5/5</p>
                 </div>
             </div>
             <div>
-                <p class="has-text-black">
+                <p class="is-size-6 has-text-black">
                     Bulma heeft niet veel ingebouwde animaties maar kan wel via Sass maar is niet altijd handig.
                 </p>
 
             </div>
         </div>
 
-        <div class="border-2 card-border-radius card-width p-2">
+        <div class="has-hover-card border-2 card-border-radius card-width p-2">
             <div class="is-flex is-flex-direction-column ">
-                <h1 class="has-text-weight-bold has-text-black">
+                <h1 class="is-size-5 has-text-weight-bold has-text-black">
                     Customizable
                 </h1>
                 <hr>
@@ -667,19 +682,19 @@
                 </div>
 
                 <div>
-                    <p>4/5</p>
+                    <p class="is-size-6">4/5</p>
                 </div>
             </div>
             <div>
-                <p class="has-text-black">
+                <p class="is-size-6 has-text-black">
                     Bulma heeft de mogelijkheid om custom css te schrijven maar niet rechtstreeks zoals bij Tailwind. Dit kan door middel van Sass wat uitgebreid uitgelegd is in de documentatie.
                 </p>
             </div>
         </div>
 
-        <div class="border-2 card-border-radius card-width p-2">
+        <div class="has-hover-card border-2 card-border-radius card-width p-2">
             <div class="is-flex is-flex-direction-column ">
-                <h1 class="has-text-weight-bold has-text-black">
+                <h1 class="is-size-5 has-text-weight-bold has-text-black">
                     Genoeg documentatie
                 </h1>
                 <hr>
@@ -694,17 +709,17 @@
                 </div>
 
                 <div>
-                    <p>4/5</p>
+                    <p class="is-size-6">4/5</p>
                 </div>
             </div>
             <div>
-                <p class="has-text-black">
+                <p class="is-size-6 has-text-black">
                     De documentatie is voldoende aanwezig ook om custom css te schrijven of toe te voegen.
                 </p>
             </div>
         </div>
     </div>
 </div>
-
+</div>
 </body>
 </html>

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="uikit-3.23.7/css/uikit.css">
     <script src="https://kit.fontawesome.com/86cde1e622.js" crossorigin="anonymous"></script>
     <script defer src="uikit-3.23.7/js/uikit.js"></script>
+    <script defer src="UI-kit.js"></script>
 
 
 </head>
@@ -18,7 +19,6 @@
                 <div class="uk-navbar-nav uk-padding-small">
                     <a class=" uk-button-text  uk-hover-text uk-text-white" href="../tailwind/tailwind.html">Tailwind</a>
                     <a  class="uk-button-text uk-hover-text uk-text-white" href="../Bulma/Bulma.html">Bulma</a>
-                    <a class="uk-button-text uk-hover-text uk-text-white" href="../Materialize/materialize.html">Semantic UI</a>
                     <a class="uk-button-text uk-hover-text uk-text-white" href="../UI-kit/UI-kit.html">UI kit</a>
                     <a class="uk-button-text uk-hover-text uk-text-white" href="../result-page/result-page.html">Aanbeveling</a>
                 </div>
@@ -32,17 +32,16 @@
 
 
 
-<header class="uk-background-secondary-own">
-    <div class="uk-padding-large uk-card uk-card-large uk-grid-collapse uk-child-width-1-3 uk-margin uk-grid uk-background-secondary-own uk-flex-around" >
+<header class="uk-background-secondary-own ">
+    <div class="uk-flex-middle  uk-padding-small uk-card uk-card-large uk-grid-collapse uk-child-width-1-3 uk-margin uk-grid uk-background-secondary-own uk-flex-around" >
         <div class="uk-flex-last@s uk-card-media-right uk-cover-container ">
-            <img class="uk-br-image" src="../Bulma/test-background.png" alt="" uk-cover>
-            <canvas width="600" height="400"></canvas>
+            <img class="image-header-size" src="../UI-kit/uikit-svgrepo-com.svg" alt="">
         </div>
         <div>
             <div class="uk-card-body ">
-                <h3 class=" uk-text-bold">Welkom bij mijn</h3>
-                <h2 class=" uk-text-primary-own uk-text-bold ">Graduaatsproef</h2>
-                <p>Voor deze graduaatsproef is het de bedoeling om onderzoek te doen <br> naar 4 verschillende CSS-frameworks die goed passen binnen
+                <h3 class=" text-subheader uk-text-bold">Welkom bij mijn</h3>
+                <h2 class=" text-size-header uk-text-primary-own uk-text-bold ">Graduaatsproef</h2>
+                <p class="uk-text-black uk-paragraph">Voor deze graduaatsproef is het de bedoeling om onderzoek te doen <br> naar 4 verschillende CSS-frameworks die goed passen binnen
                     <br> het bedrijf Smart-ICT. Via onderstaande links kan je elke pagina bekijk gemaakt <br> in het bijpassende framework</p>
             </div>
         </div>
@@ -50,20 +49,17 @@
     </div>
     <div class="uk-flex uk-flex-around uk-margin-large-top ">
         <div class="uk-animation-toggle">
-            <button class=" uk-br-top-button uk-animation-scale-up uk-button uk-background-primary-own">
-                <a class="uk-hover-text uk-text-white" href="../tailwind/tailwind.html">Tailwind</a>
+            <button class="uk-button-hover-animation uk-br-top-button  uk-button uk-background-primary-own">
+                <a class=" uk-hover-text uk-text-white" href="../tailwind/tailwind.html">Tailwind</a>
             </button>
         </div>
-        <button class=" uk-br-top-button uk-animation-scale-up uk-button uk-background-primary-own">
+        <button class="uk-button-hover-animation  uk-br-top-button  uk-button uk-background-primary-own">
             <a class="uk-hover-text uk-tex-hover-button uk-text-white" href="../Bulma/Bulma.html">Bulma</a>
         </button>
-        <button class=" uk-br-top-button uk-animation-scale-up uk-button uk-background-primary-own">
-            <a class="uk-hover-text uk-tex-hover-button uk-br-button-medium uk-text-white" href="../Materialize/materialize.html">Materialize</a>
-        </button>
-        <button class=" uk-br-top-button uk-animation-scale-up uk-button uk-background-primary-own">
+        <button class="uk-button-hover-animation uk-br-top-button  uk-button uk-background-primary-own">
             <a class="uk-hover-text uk-tex-hover-button uk-text-white" href="../UI-kit/UI-kit.html">UI kit</a>
         </button>
-        <button class=" uk-br-top-button uk-animation-scale-up uk-button uk-background-primary-own">
+        <button class="uk-button-hover-animation uk-br-top-button  uk-button uk-background-primary-own">
             <a class="uk-hover-text uk-tex-hover-button uk-text-white" href="../result-page/result-page.html">Aanbeveling</a>
         </button>
     </div>
@@ -75,403 +71,378 @@
 
 
 <div class="uk-flex uk-flex-row  uk-items-center" >
-    <h5 class="uk-margin-large-right">Basisschool De Hoogvlieger</h5>
-    <div class=" uk-br-button-medium uk-border-button uk-height-primary-button uk-width-1-6">
+    <h5 class="uk-margin-large-right text-section uk-text-bold">Basisschool De Hoogvlieger</h5>
+    <div class="uk-border-hover uk-br-button-medium uk-border-button uk-height-primary-button uk-width-1-6">
     </div>
 </div>
-    <div class="uk-margin-small-top">
+    <div class="uk-margin-small-top uk-text-black uk-paragraph">
         <p>Gewoon onderwijs - Kleuter & Lager - Herselsesteenweg 221, 3200 Aarschot</p>
     </div>
 
 
 <div class="uk-flex uk-flex-between">
-    <div class="uk-flex ">
+    <div class="uk-flex  ">
         <div class="uk-margin-large-right uk-flex uk-items-center">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <p>Opleidingen</p>
+            <p class="uk-text-black">Opleidingen</p>
         </div>
         <div class="uk-margin-large-right uk-flex uk-items-center">
             <i class="uk-margin-small-right uk-margin-small-right fa-solid fa-magnifying-glass"></i>
-            <p>Opleidingen</p>
+            <p class="uk-text-black">Cijferlijst</p>
         </div>
         <div class="uk-margin-large-right uk-flex uk-items-center">
             <i class="uk-margin-small-right fa-solid fa-magnifying-glass"></i>
-            <p>Opleidingen</p>
+            <p class="uk-text-black">Algemene gegevens</p>
         </div>
     </div>
 
 
-    <div class="uk-flex">
-        <button class="uk-border-button uk-height-primary-button uk-no-background uk-margin-large-right uk-br-button-medium uk-padding-small">
+    <div class="uk-flex ">
+        <button id="dropdown-tabel-all-open" class="uk-background-focus uk-text-primary-own uk-border-hover uk-border-button uk-height-primary-button uk-no-background uk-margin-medium-right uk-br-button-medium uk-padding-small">
             Alle tabellen openvouwen
         </button>
-        <button class="uk-border-button uk-height-primary-button uk-no-background uk-margin-large-right uk-br-button-medium uk-padding-small">
+        <button class="uk-background-focus uk-text-primary-own uk-border-hover uk-border-button uk-height-primary-button uk-no-background uk-margin-medium-right uk-br-button-medium uk-padding-small">
            Cijfers exporteren
         </button>
-        <button class=" uk-text-white uk-height-primary-button uk-background-primary-own uk-br-button-medium uk-padding-small">
+        <button class="no-border active-background hover-background  uk-text-white uk-height-primary-button uk-background-primary-own uk-br-button-medium uk-padding-small">
            Opslaan
         </button>
     </div>
 
 </div>
     <div class="uk-flex uk-flex-between uk-width-1-6 uk-items-center uk-items-baseline">
-        <h4>Geboortejaar 2023</h4>
-        <div class=" uk-text-align-center uk-align-content-center uk-border-circle uk-rounded-width uk-height-secondary-button uk-background-primary-own">
+        <h4 class="uk-text-black uk-text-bold">Geboortejaar 2023</h4>
+        <div id="dropdown-button1" class="uk-button-hover-animation uk-text-align-center uk-align-content-center uk-border-circle uk-rounded-width uk-height-secondary-button uk-background-primary-own">
             <i class=" uk-text-white fa-solid fa-chevron-down"></i>
         </div>
     </div>
 
-    <div class="uk-background-black uk-flex  uk-gap-black-table ">
-        <div class="uk-flex   ">
-            <div class="uk-margin-small-right ">
-                <p class="uk-text-white uk-margin-small-top">Capaciteit</p>
-            </div>
-            <div class="uk-flex uk-flex-column uk-margin-small-top">
-                <i class="uk-text-white fa-solid fa-chevron-up"></i>
-                <i class="uk-text-white fa-solid fa-chevron-down"></i>
+
+<div id="tabel1" class="uk-margin-large-bottom">
+    <div class="uk-background-black uk-flex uk-flex-row gap-size-2 padding-bottom-top">
+        <div class="uk-flex uk-flex-row little-gap margin-left uk-flex-middle">
+            <p class="uk-margin-remove  uk-text-white ">Capaciteit</p>
+            <div class="uk-flex uk-flex-column">
+                <i class="fa-solid fa-chevron-up uk-text-white "></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
             </div>
         </div>
 
-        <div class="uk-flex ">
-            <div class="uk-margin-small-right">
-                <p class="uk-text-white uk-margin-small-top">Zittende leerlingen</p>
-            </div>
-            <div class="uk-flex uk-flex-column uk-margin-small-top">
-                <i class="uk-text-white fa-solid fa-chevron-up"></i>
-                <i class="uk-text-white fa-solid fa-chevron-down"></i>
+        <div class="uk-flex uk-flex-row little-gap uk-flex-middle">
+            <p class="uk-margin-remove uk-text-white">Zittende leerlingen</p>
+            <div class="uk-flex uk-flex-column">
+                <i class="fa-solid fa-chevron-up uk-text-white"></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
             </div>
         </div>
 
-        <div class="uk-flex ">
-            <div class="uk-margin-small-right">
-                <p class="uk-text-white uk-margin-small-top">Aantal leerlingen</p>
-            </div>
-            <div class="uk-flex uk-flex-column uk-margin-small-top">
-                <i class="uk-text-white fa-solid fa-chevron-up"></i>
-                <i class="uk-text-white fa-solid fa-chevron-down"></i>
+
+        <div class="uk-flex uk-flex-row little-gap uk-flex-middle">
+            <p class="uk-margin-remove uk-text-white">Aantal leerlingen</p>
+            <div class="uk-flex uk-flex-column">
+                <i class="fa-solid fa-chevron-up uk-text-white"></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
             </div>
         </div>
 
-        <div class="uk-flex ">
-            <div class="uk-margin-small-right">
-                <p class="uk-text-white uk-margin-small-top">Capaciteit bereikt op</p>
-            </div>
-            <div class="uk-flex uk-flex-column uk-margin-small-top">
-                <i class="uk-text-white fa-solid fa-chevron-up"></i>
-                <i class="uk-text-white fa-solid fa-chevron-down"></i>
+
+        <div class="uk-flex uk-flex-row little-gap uk-flex-middle">
+            <p class="uk-margin-remove uk-text-white">Capaciteit bereikt op</p>
+            <div class="uk-flex uk-flex-column ">
+                <i class="fa-solid fa-chevron-up uk-text-white"></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
             </div>
         </div>
 
-        <div class="uk-flex ">
-            <div class="uk-margin-small-right">
-                <p class="uk-text-white uk-margin-small-top">Capaciteit bereikt</p>
-            </div>
-            <div class="uk-flex uk-flex-column uk-margin-small-top">
-                <i class="uk-text-white fa-solid fa-chevron-up"></i>
-                <i class="uk-text-white fa-solid fa-chevron-down"></i>
+
+        <div class="uk-flex uk-flex-row little-gap uk-flex-middle">
+            <p class="uk-margin-remove uk-text-white">Capaciteit bereikt</p>
+            <div class="uk-flex uk-flex-column">
+                <i class="fa-solid fa-chevron-up uk-text-white"></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
             </div>
         </div>
 
-        <div class="uk-flex ">
-            <div class="uk-margin-small-right">
-                <p class="uk-text-white uk-margin-small-top">OVG toonbaar</p>
-            </div>
-            <div class="uk-flex uk-flex-column uk-margin-small-top">
-                <i class="uk-text-white fa-solid fa-chevron-up"></i>
-                <i class="uk-text-white fa-solid fa-chevron-down"></i>
+        <div class="uk-flex uk-flex-row little-gap uk-flex-middle">
+            <p class="uk-margin-remove uk-text-white">OVG toonbaar</p>
+            <div class="uk-flex uk-flex-column">
+                <i class="fa-solid fa-chevron-up uk-text-white"></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
             </div>
         </div>
     </div>
 
-
-
-<div class="uk-background-grey uk-flex uk-flex-row uk-items-center  uk-gap-grey-table ">
-    <div class="uk-flex  uk-items-center  ">
-        <div class="uk-height-secondary-button uk-rounded-width uk-no-background uk-br-button-medium uk-border  uk-items-center">
+    <div class="uk-background-grey uk-flex uk-flex-row uk-gap-grey-table uk-flex-middle border-radius-bottom">
+        <div class="uk-flex uk-flex-row uk-flex-middle gap-size-3 margin-left">
+            <div class="uk-rounded-width uk-height-secondary-button uk-border-rounded uk-no-background border border-hover"></div>
+            <div class="uk-flex uk-flex-column uk-text-black">
+                <i class="fa-solid fa-chevron-up uk-text-black"></i>
+                <i class="fa-solid fa-chevron-down uk-text-black"></i>
+            </div>
         </div>
-        <div class="uk-flex uk-flex-column">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
+
+        <div class="uk-flex uk-flex-row uk-flex-middle gap-size-3">
+            <div class="uk-rounded-width uk-height-secondary-button uk-border-rounded uk-no-background border border-hover"></div>
+            <div class="uk-flex uk-flex-column uk-text-black">
+                <i class="fa-solid fa-chevron-up uk-text-black"></i>
+                <i class="fa-solid fa-chevron-down uk-text-black"></i>
+            </div>
         </div>
-    </div>
 
-    <div class="uk-flex uk-margin-large-right uk-items-center">
-        <div class="uk-height-secondary-button uk-rounded-width uk-no-background uk-br-button-medium uk-border  uk-items-center">
+
+
+        <div class="uk-width-extra-small uk-height-secondary-button uk-text-center content-center rounded uk-label background-green-500 uk-border-rounded uk-text-black">xx</div>
+
+        <div class="uk-flex uk-flex-column uk-text-center">
+            <p class="uk-text-black">xx/xx/xxxx</p>
+            <p class="uk-text-black">xx:xx:xx</p>
         </div>
-        <div class="uk-flex uk-flex-column">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
+
+
+        <div class="uk-br-button-large uk-flex uk-flex-row uk-width-1-6 uk-background-green-1 uk-height-extra-small uk-width-extra-small uk-text-black">
+            <div class="rounded uk-background-green uk-height-extra-small uk-rounded-width"></div>
+            <span class="uk-text-black">JA</span>
         </div>
-    </div>
 
-    <div class="uk-margin-small-top">
-        <p class="uk-text-white">xx/xx/xxxx</p>
-    </div>
-
-    <div class="uk-margin-small-top">
-        <p class="uk-text-white">xx/xx/xxxx xx:xx:xx</p>
-    </div>
-
-    <div class="uk-br-button-large uk-flex uk-flex-row  uk-width-1-6  uk-background-green-1 uk-height-extra-small uk-width-extra-small">
-        <div class="uk-fullrounded uk-background-green uk-height-extra-small uk-rounded-width ">
-
-        </div>
-        JA
-    </div>
-
-    <div>
-        <div class="uk-height-secondary-button uk-rounded-width uk-no-background uk-br-button-medium uk-border  uk-items-center">
-        </div>
+        <div class="uk-rounded-width uk-height-secondary-button uk-border-rounded uk-no-background border border-hover"></div>
     </div>
 </div>
 
-<div class="uk-background-black uk-flex uk-gap-black-table uk-margin-medium-top">
-    <div class="uk-flex   uk-items-center ">
-        <div class="uk-margin-small-right">
-            <p class="uk-text-white uk-margin-small-top">Capaciteit</p>
-        </div>
-        <div class="uk-flex uk-flex-column uk-margin-small-top">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-
-    <div class="uk-flex ">
-        <div class="uk-margin-small-right">
-            <p class="uk-text-white uk-margin-small-top">Capaciteit</p>
-        </div>
-        <div class="uk-flex uk-flex-column uk-margin-small-top">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-
-    <div class="uk-flex uk-flex-row ">
-        <div class="uk-flex ">
-            <div class="uk-margin-small-right">
-                <p class="uk-text-white uk-margin-small-top">Capaciteit</p>
-            </div>
-            <div class="uk-flex uk-flex-column uk-margin-small-top">
-                <i class="uk-text-white fa-solid fa-chevron-up"></i>
-                <i class="uk-text-white fa-solid fa-chevron-down"></i>
+<div id="tabel2" class="uk-margin-large-bottom">
+    <div class="uk-background-black uk-flex uk-flex-row gap-size-2 padding-bottom-top">
+        <div class="uk-flex uk-flex-row little-gap margin-left uk-flex-middle">
+            <p class="uk-margin-remove  uk-text-white ">Beschrijving</p>
+            <div class="uk-flex uk-flex-column">
+                <i class="fa-solid fa-chevron-up uk-text-white "></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
             </div>
         </div>
-</div>
 
-</div>
-<div class="uk-background-grey uk-flex uk-flex-row uk-gap-grey-table ">
-    <div class="uk-flex  ">
-        <div class="uk-margin-small-top">
-            <p class="uk-text-white">xx/xx/xxxx</p>
+        <div class="uk-flex uk-flex-row little-gap uk-flex-middle">
+            <p class="uk-margin-remove uk-text-white">Percentage hoeveelheid OVG</p>
+            <div class="uk-flex uk-flex-column">
+                <i class="fa-solid fa-chevron-up uk-text-white"></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
+            </div>
         </div>
+
+
+        <div class="uk-flex uk-flex-row little-gap uk-flex-middle">
+            <p class="uk-margin-remove uk-text-white">Zittende leerlingen OVG</p>
+            <div class="uk-flex uk-flex-column">
+                <i class="fa-solid fa-chevron-up uk-text-white"></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
+            </div>
+        </div>
+
     </div>
 
-    <div class="uk-flex  uk-margin-small-top ">
-        <div class="uk-height-secondary-button uk-rounded-width uk-no-background uk-br-button-medium uk-border  uk-items-center">
+    <div class="border-radius-bottom uk-background-grey uk-flex uk-flex-row uk-gap-grey-table uk-flex-middle padding-bottom-top">
+        <div class="width-beschrijving-width uk-text-black margin-left">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, iure?</p>
         </div>
-        <div class="uk-flex uk-flex-column uk-items-center">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
+
+        <div class="uk-flex uk-flex-row uk-flex-middle gap-size-3 margin-left">
+            <div class="uk-rounded-width uk-height-secondary-button uk-border-rounded uk-no-background border border-hover"></div>
+            <div class="uk-flex uk-flex-column uk-text-black">
+                <i class="fa-solid fa-chevron-up uk-text-black"></i>
+                <i class="fa-solid fa-chevron-down uk-text-black"></i>
+            </div>
         </div>
+
+        <div class="uk-flex uk-flex-row uk-flex-middle gap-size-3">
+            <div class="uk-rounded-width uk-height-secondary-button uk-border-rounded uk-no-background border border-hover"></div>
+            <div class="uk-flex uk-flex-column uk-text-black">
+                <i class="fa-solid fa-chevron-up uk-text-black"></i>
+                <i class="fa-solid fa-chevron-down uk-text-black"></i>
+            </div>
+        </div>
+
+
     </div>
-
-    <div class="uk-flex  uk-margin-small-top ">
-        <div class="uk-height-secondary-button uk-rounded-width uk-no-background uk-br-button-medium uk-border  uk-items-center">
-        </div>
-        <div class="uk-flex uk-flex-column uk-items-center">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-
-
 </div>
+
+
+
+
+
 
 
 <div class="uk-flex uk-flex-between uk-width-1-6 uk-items-center uk-items-baseline">
-    <h4>Geboortejaar 2023</h4>
-    <div class=" uk-text-align-center uk-align-content-center uk-border-circle uk-rounded-width uk-height-secondary-button uk-background-primary-own">
+    <h4 class="uk-text-bold">Geboortejaar 2023</h4>
+    <div id="dropdown-button2" class="uk-button-hover-animation uk-text-align-center uk-align-content-center uk-border-circle uk-rounded-width uk-height-secondary-button uk-background-primary-own">
         <i class=" uk-text-white fa-solid fa-chevron-down"></i>
     </div>
 </div>
 
-<div class="uk-background-black uk-flex  uk-gap-black-table ">
-    <div class="uk-flex   ">
-        <div class="uk-margin-small-right ">
-            <p class="uk-text-white uk-margin-small-top">Capaciteit</p>
-        </div>
-        <div class="uk-flex uk-flex-column uk-margin-small-top">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
 
-    <div class="uk-flex ">
-        <div class="uk-margin-small-right">
-            <p class="uk-text-white uk-margin-small-top">Zittende leerlingen</p>
-        </div>
-        <div class="uk-flex uk-flex-column uk-margin-small-top">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-
-    <div class="uk-flex ">
-        <div class="uk-margin-small-right">
-            <p class="uk-text-white uk-margin-small-top">Aantal leerlingen</p>
-        </div>
-        <div class="uk-flex uk-flex-column uk-margin-small-top">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-
-    <div class="uk-flex ">
-        <div class="uk-margin-small-right">
-            <p class="uk-text-white uk-margin-small-top">Capaciteit bereikt op</p>
-        </div>
-        <div class="uk-flex uk-flex-column uk-margin-small-top">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-
-    <div class="uk-flex ">
-        <div class="uk-margin-small-right">
-            <p class="uk-text-white uk-margin-small-top">Capaciteit bereikt</p>
-        </div>
-        <div class="uk-flex uk-flex-column uk-margin-small-top">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-
-    <div class="uk-flex ">
-        <div class="uk-margin-small-right">
-            <p class="uk-text-white uk-margin-small-top">OVG toonbaar</p>
-        </div>
-        <div class="uk-flex uk-flex-column uk-margin-small-top">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-</div>
-
-
-
-<div class="uk-background-grey uk-flex uk-flex-row uk-items-center  uk-gap-grey-table ">
-    <div class="uk-flex  uk-items-center  ">
-        <div class="uk-height-secondary-button uk-rounded-width uk-no-background uk-br-button-medium uk-border  uk-items-center">
-        </div>
-        <div class="uk-flex uk-flex-column">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-
-    <div class="uk-flex uk-margin-large-right uk-items-center">
-        <div class="uk-height-secondary-button uk-rounded-width uk-no-background uk-br-button-medium uk-border  uk-items-center">
-        </div>
-        <div class="uk-flex uk-flex-column">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-
-    <div class="uk-margin-small-top">
-        <p class="uk-text-white">xx/xx/xxxx</p>
-    </div>
-
-    <div class="uk-margin-small-top">
-        <p class="uk-text-white">xx/xx/xxxx xx:xx:xx</p>
-    </div>
-
-    <div class="uk-br-button-large uk-flex uk-flex-row  uk-width-1-6  uk-background-green-1 uk-height-extra-small uk-width-extra-small">
-        <div class="uk-fullrounded uk-background-green uk-height-extra-small uk-rounded-width ">
-
-        </div>
-        JA
-    </div>
-
-    <div>
-        <div class="uk-height-secondary-button uk-rounded-width uk-no-background uk-br-button-medium uk-border  uk-items-center">
-        </div>
-    </div>
-</div>
-
-<div class="uk-background-black uk-flex uk-gap-black-table uk-margin-medium-top">
-    <div class="uk-flex   uk-items-center ">
-        <div class="uk-margin-small-right">
-            <p class="uk-text-white uk-margin-small-top">Capaciteit</p>
-        </div>
-        <div class="uk-flex uk-flex-column uk-margin-small-top">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-
-    <div class="uk-flex ">
-        <div class="uk-margin-small-right">
-            <p class="uk-text-white uk-margin-small-top">Capaciteit</p>
-        </div>
-        <div class="uk-flex uk-flex-column uk-margin-small-top">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-
-    <div class="uk-flex uk-flex-row ">
-        <div class="uk-flex ">
-            <div class="uk-margin-small-right">
-                <p class="uk-text-white uk-margin-small-top">Capaciteit</p>
+<div id="tabel3" class="uk-margin-large-bottom ">
+    <div class="uk-background-black uk-flex uk-flex-row gap-size-2 padding-bottom-top">
+        <div class="uk-flex uk-flex-row little-gap margin-left uk-flex-middle">
+            <p class="uk-margin-remove  uk-text-white ">Capaciteit</p>
+            <div class="uk-flex uk-flex-column">
+                <i class="fa-solid fa-chevron-up uk-text-white "></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
             </div>
-            <div class="uk-flex uk-flex-column uk-margin-small-top">
-                <i class="uk-text-white fa-solid fa-chevron-up"></i>
-                <i class="uk-text-white fa-solid fa-chevron-down"></i>
+        </div>
+
+        <div class="uk-flex uk-flex-row little-gap uk-flex-middle">
+            <p class="uk-margin-remove uk-text-white">Zittende leerlingen</p>
+            <div class="uk-flex uk-flex-column">
+                <i class="fa-solid fa-chevron-up uk-text-white"></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
+            </div>
+        </div>
+
+
+        <div class="uk-flex uk-flex-row little-gap uk-flex-middle">
+            <p class="uk-margin-remove uk-text-white">Aantal leerlingen</p>
+            <div class="uk-flex uk-flex-column">
+                <i class="fa-solid fa-chevron-up uk-text-white"></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
+            </div>
+        </div>
+
+
+        <div class="uk-flex uk-flex-row little-gap uk-flex-middle">
+            <p class="uk-margin-remove uk-text-white">Capaciteit bereikt op</p>
+            <div class="uk-flex uk-flex-column ">
+                <i class="fa-solid fa-chevron-up uk-text-white"></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
+            </div>
+        </div>
+
+
+        <div class="uk-flex uk-flex-row little-gap uk-flex-middle">
+            <p class="uk-margin-remove uk-text-white">Capaciteit bereikt</p>
+            <div class="uk-flex uk-flex-column">
+                <i class="fa-solid fa-chevron-up uk-text-white"></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
+            </div>
+        </div>
+
+        <div class="uk-flex uk-flex-row little-gap uk-flex-middle">
+            <p class="uk-margin-remove uk-text-white">OVG toonbaar</p>
+            <div class="uk-flex uk-flex-column">
+                <i class="fa-solid fa-chevron-up uk-text-white"></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
             </div>
         </div>
     </div>
 
+    <div class="uk-background-grey uk-flex uk-flex-row uk-gap-grey-table uk-flex-middle border-radius-bottom">
+        <div class="uk-flex uk-flex-row uk-flex-middle gap-size-3 margin-left">
+            <div class="uk-rounded-width uk-height-secondary-button uk-border-rounded uk-no-background border border-hover"></div>
+            <div class="uk-flex uk-flex-column uk-text-black">
+                <i class="fa-solid fa-chevron-up uk-text-black"></i>
+                <i class="fa-solid fa-chevron-down uk-text-black"></i>
+            </div>
+        </div>
+
+        <div class="uk-flex uk-flex-row uk-flex-middle gap-size-3">
+            <div class="uk-rounded-width uk-height-secondary-button uk-border-rounded uk-no-background border border-hover"></div>
+            <div class="uk-flex uk-flex-column uk-text-black">
+                <i class="fa-solid fa-chevron-up uk-text-black"></i>
+                <i class="fa-solid fa-chevron-down uk-text-black"></i>
+            </div>
+        </div>
+
+
+
+        <div class="uk-width-extra-small uk-height-secondary-button uk-text-center content-center rounded uk-label background-green-500 uk-border-rounded uk-text-black">xx</div>
+
+        <div class="uk-flex uk-flex-column uk-text-center">
+            <p class="uk-text-black">xx/xx/xxxx</p>
+            <p class="uk-text-black">xx:xx:xx</p>
+        </div>
+
+
+        <div class="uk-br-button-large uk-flex uk-flex-row uk-width-1-6 uk-background-green-1 uk-height-extra-small uk-width-extra-small uk-text-black">
+            <div class="rounded uk-background-green uk-height-extra-small uk-rounded-width"></div>
+            <span class="uk-text-black">JA</span>
+        </div>
+
+        <div class="uk-rounded-width uk-height-secondary-button uk-border-rounded uk-no-background border border-hover"></div>
+    </div>
 </div>
-<div class="uk-background-grey uk-flex uk-flex-row uk-gap-grey-table ">
-    <div class="uk-flex  ">
-        <div class="uk-margin-small-top">
-            <p class="uk-text-white">xx/xx/xxxx</p>
+
+<div id="tabel4" class="uk-margin-large-bottom">
+    <div class="uk-background-black uk-flex uk-flex-row gap-size-2 padding-bottom-top">
+        <div class="uk-flex uk-flex-row little-gap margin-left uk-flex-middle">
+            <p class="uk-margin-remove  uk-text-white ">Beschrijving</p>
+            <div class="uk-flex uk-flex-column">
+                <i class="fa-solid fa-chevron-up uk-text-white "></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
+            </div>
         </div>
+
+        <div class="uk-flex uk-flex-row little-gap uk-flex-middle">
+            <p class="uk-margin-remove uk-text-white">Percentage hoeveelheid OVG</p>
+            <div class="uk-flex uk-flex-column">
+                <i class="fa-solid fa-chevron-up uk-text-white"></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
+            </div>
+        </div>
+
+
+        <div class="uk-flex uk-flex-row little-gap uk-flex-middle">
+            <p class="uk-margin-remove uk-text-white">Zittende leerlingen OVG</p>
+            <div class="uk-flex uk-flex-column">
+                <i class="fa-solid fa-chevron-up uk-text-white"></i>
+                <i class="fa-solid fa-chevron-down uk-text-white"></i>
+            </div>
+        </div>
+
     </div>
 
-    <div class="uk-flex  uk-margin-small-top ">
-        <div class="uk-height-secondary-button uk-rounded-width uk-no-background uk-br-button-medium uk-border  uk-items-center">
+    <div class=" border-radius-bottom uk-background-grey uk-flex uk-flex-row uk-gap-grey-table uk-flex-middle padding-bottom-top">
+        <div class="width-beschrijving-width uk-text-black margin-left">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, iure?</p>
         </div>
-        <div class="uk-flex uk-flex-column uk-items-center">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
+
+        <div class="uk-flex uk-flex-row uk-flex-middle gap-size-3 margin-left">
+            <div class="uk-rounded-width uk-height-secondary-button uk-border-rounded uk-no-background border border-hover"></div>
+            <div class="uk-flex uk-flex-column uk-text-black">
+                <i class="fa-solid fa-chevron-up uk-text-black"></i>
+                <i class="fa-solid fa-chevron-down uk-text-black"></i>
+            </div>
         </div>
+
+        <div class="uk-flex uk-flex-row uk-flex-middle gap-size-3">
+            <div class="uk-rounded-width uk-height-secondary-button uk-border-rounded uk-no-background border border-hover"></div>
+            <div class="uk-flex uk-flex-column uk-text-black">
+                <i class="fa-solid fa-chevron-up uk-text-black"></i>
+                <i class="fa-solid fa-chevron-down uk-text-black"></i>
+            </div>
+        </div>
+
+
     </div>
-
-    <div class="uk-flex  uk-margin-small-top ">
-        <div class="uk-height-secondary-button uk-rounded-width uk-no-background uk-br-button-medium uk-border  uk-items-center">
-        </div>
-        <div class="uk-flex uk-flex-column uk-items-center">
-            <i class="uk-text-white fa-solid fa-chevron-up"></i>
-            <i class="uk-text-white fa-solid fa-chevron-down"></i>
-        </div>
-    </div>
-
-
-
 </div>
+
+
+
 
 <nav aria-label="Pagination" class="uk-margin-large-top">
     <ul class="uk-pagination uk-flex-center" uk-margin>
-        <li class="uk-background-primary-own uk-fullrounded uk-height-secondary-button uk-rounded-width "><a class="" href="#"><i class=" uk-text-white fa-solid fa-chevron-left"></i></a></li>
+        <li class="uk-button-hover-animation uk-background-primary-own uk-fullrounded uk-height-secondary-button uk-rounded-width uk-flex uk-flex-center uk-flex-middle">
+            <a href="#">
+                <i class="uk-text-white fa-solid fa-chevron-left"></i>
+            </a>
+        </li>
+
         <li><a href="#">1</a></li>
         <li class="uk-disabled"><span>…</span></li>
         <li><a href="#">5</a></li>
         <li><a href="#">6</a></li>
         <li class="uk-active"><span aria-current="page">7</span></li>
         <li><a href="#">8</a></li>
-        <li class="uk-background-primary-own uk-fullrounded uk-height-secondary-button uk-rounded-width "><a href="#"><i class="uk-text-white fa-solid fa-chevron-right"></i></a></li>
+        <li class="uk-button-hover-animation uk-background-primary-own uk-fullrounded uk-height-secondary-button uk-rounded-width uk-flex uk-flex-center uk-flex-middle">
+            <a href="#">
+                <i class="uk-text-white fa-solid fa-chevron-right"></i>
+            </a>
+        </li>
+
     </ul>
 </nav>
 

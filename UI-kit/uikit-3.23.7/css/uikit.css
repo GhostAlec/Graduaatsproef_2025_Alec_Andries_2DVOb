@@ -131,7 +131,7 @@ html {
 
 
 .uk-gap-grey-table{
-  gap: 125px;
+  gap: 145px;
 }
 
   .uk-gap-black-table{
@@ -149,6 +149,119 @@ html {
     border-radius: 8px;
   }
 
+  .uk-border-hover:hover{
+    border: 3px solid oklch(44.3% 0.11 240.79);
+  }
+
+  .uk-background-focus:focus{
+    background-color: rgb(186 230 253);
+  }
+
+  .uk-button-hover-animation:hover{
+    transition: all 0.3s ease-in-out;
+   scale: 1.1;
+    background-color: rgb(2 132 199);
+  }
+
+  .border-hover:hover{
+    border: 3px solid black;
+  }
+
+  .image-header-size{
+    width: 128px;
+    height: 128px;
+  }
+
+  .uk-paragraph{
+    width: 40rem;
+  }
+
+  .text-size-header{
+    font-size: 48px;
+  }
+  .text-subheader{
+    font-size: 32px;
+  }
+  .text-section{
+    font-size: 24px;
+  }
+
+  .text-titles{
+    font-size: 20px;
+  }
+
+  .border{
+    border: 2px solid black;
+  }
+
+  .border-hover:hover{
+    border: 3px solid black;
+  }
+
+  .gap-size-1{
+    gap: 150px;
+  }
+
+  .gap-size-4{
+    gap: 165px;
+  }
+
+  .gap-size-2{
+    gap: 65px;
+  }
+
+  .gap-size-3{
+    gap: 16px;
+  }
+
+  .content-center{
+    align-content: center;
+  }
+
+  .rounded{
+    border-radius: 500px;
+  }
+
+  .width-beschrijving{
+    width: 150px;
+  }
+
+  .background-green-500{
+    background-color: rgb(34 197 94);
+  }
+
+.little-gap{
+  gap: 16px;
+}
+
+  .margin-left{
+    margin-left: 16px;
+  }
+
+  .padding-bottom-top{
+    padding-bottom: 14px;
+    padding-top: 14px;
+  }
+
+  .width-beschrijving-width{
+    width: 10rem;
+  }
+
+  .border-radius-bottom{
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+  }
+
+  .hover-background:hover{
+    background-color: rgb(2 132 199);
+  }
+  .no-border{
+    border: none;
+  }
+
+  .active-background:focus{
+    background-color: rgb(2 132 199);
+  }
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 16px;
   font-weight: normal;
