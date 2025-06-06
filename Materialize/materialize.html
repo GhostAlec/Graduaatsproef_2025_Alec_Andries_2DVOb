@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/86cde1e622.js" crossorigin="anonymous"></script>
+    <title>Materialize</title>
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+
+
+</head>
+<body >
+
+
+<nav>
+    <div class="nav-wrapper main">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger scale-transition"><i class="material-icons"><i class="fa-solid fa-bars"></i></i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="../tailwind/tailwind.html">Tailwind</a></li>
+            <li><a href="../Bulma/Bulma.html">Bulma</a></li>
+            <li><a href="../Materialize/materialize.html">Materialize</a></li>
+            <li><a href="../UI-kit/UI-kit.html">UI kit</a></li>
+        </ul>
+    </div>
+</nav>
+
+<ul class="sidenav main scale-out scale-transition" id="mobile-demo">
+    <li><a href="../tailwind/tailwind.html">Tailwind</a></li>
+    <li><a href="../Bulma/Bulma.html">Bulma</a></li>
+    <li><a href="../Materialize/materialize.html">Materialize</a></li>
+    <li><a href="../">foundation</a></li>
+</ul>
+
+<div class="second-color row m12">
+    <div class="col m4 ">
+        <h3>
+            Welkom bij mijn
+        </h3>
+        <h4 class="main-text ">
+            Graduaatsproef
+        </h4>
+    </div>
+
+    <div class=" col m4">
+        <img src="../Bulma/test-background.png" alt="">
+    </div>
+
+    <div class="  row align-right center">
+
+            <a class=" col m1  waves-effect waves-light btn">button</a>
+            <a class=" col m1  waves-effect waves-light btn">button</a>
+            <a class="col m1   waves-effect waves-light btn ">button</a>
+            <a class="col m1   waves-effect waves-light btn">button</a>
+
+
+    </div>
+</div>
+
+
+<div class="center-align margin-top margin-bottom">
+    <h4>
+       Componenten gemaakt in Materialize
+    </h4>
+</div>
+
+<div class=" row col xl6 ">
+        <h6 class="col s3">
+            Basisschool De Hoogvlieger
+        </h6>
+
+</div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+  const sideNav= document.querySelectorAll('.sidenav');
+ M.Sidenav.init(sideNav, {});
+</script>
+</html>
